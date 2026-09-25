@@ -1,32 +1,18 @@
-# Dados brutos e arquivos grandes
 data/raw/*
 !data/raw/.gitkeep
 
-# Arquivos tratados locais
 data/processed/*.csv
 data/processed/*.xlsx
 data/processed/*.parquet
 
-# Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 .venv/
 venv/
-env/
-
-# Jupyter
 .ipynb_checkpoints/
-
-# IDE / sistema
 .vscode/
 .DS_Store
 Thumbs.db
-
-# Segredos e variáveis de ambiente
 .env
 *.env
-
-# Power BI temporários
 *.tmp
