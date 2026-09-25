@@ -1,12 +1,10 @@
-# Dicionário de dados
+# Dicionario de Dados
 
-O dicionário será atualizado conforme as bases forem tratadas.
-
-| Campo | Descrição | Tipo | Origem | Tratamento |
-|---|---|---|---|---|
-| ano | Ano de referência | inteiro | A definir | Padronizar para AAAA |
-| genero | Gênero informado na fonte | texto | A definir | Harmonizar categorias |
-| regiao | Região geográfica | texto | A definir | Padronizar nomes |
-| curso | Curso de graduação | texto | INEP | Agrupar cursos Tech |
-| cargo | Cargo profissional | texto | Mercado | Padronizar cargos |
-| salario | Remuneração informada | numérico | Mercado | Tratar moeda e outliers |
+| Campo | Descricao | Origem |
+|---|---|---|
+| ano | Ano de referencia | Bases educacionais e de mercado |
+| genero | Genero informado na base | Bases educacionais e de mercado |
+| regiao | Regiao geografica | Bases educacionais e de mercado |
+| curso | Curso de graduacao | INEP |
+| cargo | Cargo profissional | Base de mercado |
+| salario | Remuneracao informada | Base de mercado |
