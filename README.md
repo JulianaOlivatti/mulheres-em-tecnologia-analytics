@@ -59,8 +59,4 @@ mulheres-em-tecnologia-analytics/
 - Documentação das premissas
 - Apresentação executiva
 
-## Equipe
-
-Projeto acadêmico desenvolvido em grupo. Os integrantes serão adicionados como colaboradores do repositório.
-
 > Status: em desenvolvimento.
