@@ -2,5 +2,6 @@ pandas
 numpy
 matplotlib
 scipy
+streamlit
 jupyter
 openpyxl
