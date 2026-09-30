@@ -1,0 +1,6 @@
+﻿Senioridade_ID,Senioridade,Ordem_Hierarquica,Classificacao_Lideranca
+SEN_01,Junior,1,Operacional / Especialista
+SEN_02,Pleno,2,Operacional / Especialista
+SEN_03,Senior,3,Operacional / Especialista
+SEN_04,Lead / Staff Specialist,4,Lideranca / Executivo
+SEN_05,Diretoria / C-Level,5,Lideranca / Executivo

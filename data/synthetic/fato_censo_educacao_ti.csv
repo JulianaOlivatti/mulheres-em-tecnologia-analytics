@@ -1,0 +1,391 @@
+﻿Ano,Regiao,UF,Curso_Nome,Grau_Academico,Duracao_Anos,Total_Ingressantes,Ingressantes_Mulheres,Ingressantes_Homens,Pct_Mulheres_Ingressantes,Total_Matriculados,Matriculados_Mulheres,Matriculados_Homens,Total_Concluintes,Concluintes_Mulheres,Concluintes_Homens,Pct_Mulheres_Concluintes,Taxa_Evasao_Feminina_Estimada_%,Taxa_Evasao_Masculina_Estimada_%
+2018,Sudeste,SP,Ciencia da Computacao,Bacharelado,5.0,1263,193,1070,15.28,5429,763,4666,101,14,87,13.86,63.6,59.0
+2018,Sudeste,SP,Engenharia de Software,Bacharelado,5.0,1246,212,1034,17.01,5334,835,4499,97,14,83,14.43,66.1,59.6
+2018,Sudeste,SP,Sistemas de Informacao,Bacharelado,4.0,1186,175,1011,14.76,3774,513,3261,116,18,98,15.52,57.5,60.9
+2018,Sudeste,SP,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1289,170,1119,13.19,2484,301,2183,230,24,206,10.43,64.4,53.8
+2018,Sudeste,SP,Engenharia de Computacao,Bacharelado,5.0,1341,203,1138,15.14,5229,729,4500,100,8,92,8.0,78.2,59.2
+2018,Sudeste,RJ,Ciencia da Computacao,Bacharelado,5.0,1233,181,1052,14.68,4781,647,4134,102,12,90,11.76,65.6,57.1
+2018,Sudeste,RJ,Engenharia de Software,Bacharelado,5.0,1175,214,961,18.21,4513,758,3755,94,14,80,14.89,65.9,58.0
+2018,Sudeste,RJ,Sistemas de Informacao,Bacharelado,4.0,1205,193,1012,16.02,4094,605,3489,136,15,121,11.03,68.8,52.1
+2018,Sudeste,RJ,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1117,176,941,15.76,2500,363,2137,169,21,148,12.43,68.9,60.6
+2018,Sudeste,RJ,Engenharia de Computacao,Bacharelado,5.0,1143,150,993,13.12,4518,545,3973,87,10,77,11.49,66.2,61.2
+2018,Sudeste,MG,Ciencia da Computacao,Bacharelado,5.0,1251,160,1091,12.79,4823,570,4253,94,9,85,9.57,70.3,60.7
+2018,Sudeste,MG,Engenharia de Software,Bacharelado,5.0,1295,215,1080,16.6,4928,754,4174,107,15,92,14.02,64.6,57.1
+2018,Sudeste,MG,Sistemas de Informacao,Bacharelado,4.0,1250,212,1038,16.96,3998,623,3375,129,17,112,13.18,67.3,56.8
+2018,Sudeste,MG,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1318,186,1132,14.11,2786,362,2424,200,24,176,12.0,67.7,61.0
+2018,Sudeste,MG,Engenharia de Computacao,Bacharelado,5.0,1252,181,1071,14.46,5409,723,4686,96,9,87,9.38,74.0,59.0
+2018,Sul,PR,Ciencia da Computacao,Bacharelado,5.0,830,117,713,14.1,3378,438,2940,68,7,61,10.29,68.3,57.1
+2018,Sul,PR,Engenharia de Software,Bacharelado,5.0,568,71,497,12.5,2516,289,2227,51,5,46,9.8,65.9,53.5
+2018,Sul,PR,Sistemas de Informacao,Bacharelado,4.0,497,82,415,16.5,1513,231,1282,52,7,45,13.46,64.8,56.5
+2018,Sul,PR,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,634,101,533,15.93,1379,202,1177,98,10,88,10.2,73.5,58.5
+2018,Sul,PR,Engenharia de Computacao,Bacharelado,5.0,536,88,448,16.42,2054,311,1743,46,5,41,10.87,66.4,53.6
+2018,Sul,SC,Ciencia da Computacao,Bacharelado,5.0,584,92,492,15.75,2193,320,1873,47,7,40,14.89,57.4,59.0
+2018,Sul,SC,Engenharia de Software,Bacharelado,5.0,529,79,450,14.93,2117,293,1824,41,5,36,12.2,67.4,59.2
+2018,Sul,SC,Sistemas de Informacao,Bacharelado,4.0,711,112,599,15.75,2288,331,1957,78,8,70,10.26,67.9,53.0
+2018,Sul,SC,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,475,66,409,13.89,897,115,782,64,8,56,12.5,68.2,65.4
+2018,Sul,SC,Engenharia de Computacao,Bacharelado,5.0,545,86,459,15.78,2102,308,1794,43,5,38,11.63,69.4,58.0
+2018,Sul,RS,Ciencia da Computacao,Bacharelado,5.0,622,85,537,13.67,2687,340,2347,53,5,48,9.43,71.2,55.3
+2018,Sul,RS,Engenharia de Software,Bacharelado,5.0,673,90,583,13.37,2843,350,2493,54,6,48,11.11,64.5,58.2
+2018,Sul,RS,Sistemas de Informacao,Bacharelado,4.0,521,87,434,16.7,1621,251,1370,53,6,47,11.32,68.4,56.5
+2018,Sul,RS,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,436,68,368,15.6,922,132,790,73,8,65,10.96,70.1,55.3
+2018,Sul,RS,Engenharia de Computacao,Bacharelado,5.0,610,93,517,15.25,2350,329,2021,50,6,44,12.0,64.9,57.0
+2018,Nordeste,BA,Ciencia da Computacao,Bacharelado,5.0,473,64,409,13.53,2063,259,1804,33,5,28,15.15,73.5,65.6
+2018,Nordeste,BA,Engenharia de Software,Bacharelado,5.0,382,58,324,15.18,1689,236,1453,30,5,25,16.67,69.0,60.3
+2018,Nordeste,BA,Sistemas de Informacao,Bacharelado,4.0,309,41,268,13.27,1061,131,930,30,5,25,16.67,70.5,61.7
+2018,Nordeste,BA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,426,71,355,16.67,800,123,677,70,8,62,11.43,69.2,55.9
+2018,Nordeste,BA,Engenharia de Computacao,Bacharelado,5.0,557,90,467,16.16,2361,352,2009,46,5,41,10.87,70.9,55.1
+2018,Nordeste,PE,Ciencia da Computacao,Bacharelado,5.0,347,47,300,13.54,1495,189,1306,30,5,25,16.67,71.9,59.2
+2018,Nordeste,PE,Engenharia de Software,Bacharelado,5.0,473,86,387,18.18,1806,304,1502,40,6,34,15.0,62.5,55.7
+2018,Nordeste,PE,Sistemas de Informacao,Bacharelado,4.0,478,72,406,15.06,1615,224,1391,43,5,38,11.63,68.1,62.4
+2018,Nordeste,PE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,386,75,311,19.43,752,135,617,58,10,48,17.24,64.1,60.9
+2018,Nordeste,PE,Engenharia de Computacao,Bacharelado,5.0,411,62,349,15.09,1595,224,1371,32,5,27,15.62,67.1,60.1
+2018,Nordeste,CE,Ciencia da Computacao,Bacharelado,5.0,445,68,377,15.28,1990,281,1709,34,5,29,14.71,66.2,60.3
+2018,Nordeste,CE,Engenharia de Software,Bacharelado,5.0,491,73,418,14.87,1957,269,1688,43,5,38,11.63,68.9,54.3
+2018,Nordeste,CE,Sistemas de Informacao,Bacharelado,4.0,421,67,354,15.91,1406,207,1199,44,5,39,11.36,68.9,55.6
+2018,Nordeste,CE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,492,76,416,15.45,1059,151,908,72,8,64,11.11,72.3,61.2
+2018,Nordeste,CE,Engenharia de Computacao,Bacharelado,5.0,297,41,256,13.8,1294,167,1127,30,5,25,16.67,69.2,58.8
+2018,Centro-Oeste,DF,Ciencia da Computacao,Bacharelado,5.0,205,34,171,16.59,845,130,715,30,5,25,16.67,70.3,61.4
+2018,Centro-Oeste,DF,Engenharia de Software,Bacharelado,5.0,280,46,234,16.43,1236,187,1049,30,5,25,16.67,63.4,53.5
+2018,Centro-Oeste,DF,Sistemas de Informacao,Bacharelado,4.0,217,30,187,13.82,655,85,570,30,5,25,16.67,77.3,52.4
+2018,Centro-Oeste,DF,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,258,33,225,12.79,486,58,428,43,5,38,11.63,64.4,57.0
+2018,Centro-Oeste,DF,Engenharia de Computacao,Bacharelado,5.0,328,51,277,15.55,1283,185,1098,30,5,25,16.67,65.1,58.6
+2018,Centro-Oeste,GO,Ciencia da Computacao,Bacharelado,5.0,207,30,177,14.49,860,114,746,30,5,25,16.67,73.5,60.5
+2018,Centro-Oeste,GO,Engenharia de Software,Bacharelado,5.0,205,33,172,16.1,818,121,697,30,5,25,16.67,65.4,60.6
+2018,Centro-Oeste,GO,Sistemas de Informacao,Bacharelado,4.0,140,21,119,15.0,422,59,363,30,5,25,16.67,64.9,63.0
+2018,Centro-Oeste,GO,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,177,26,151,14.69,348,48,300,30,5,25,16.67,75.1,59.2
+2018,Centro-Oeste,GO,Engenharia de Computacao,Bacharelado,5.0,120,20,100,16.67,535,83,452,30,5,25,16.67,69.5,63.0
+2018,Norte,PA,Ciencia da Computacao,Bacharelado,5.0,120,21,99,17.5,472,79,393,30,5,25,16.67,73.1,55.9
+2018,Norte,PA,Engenharia de Software,Bacharelado,5.0,188,31,157,16.49,771,118,653,30,5,25,16.67,67.9,55.2
+2018,Norte,PA,Sistemas de Informacao,Bacharelado,4.0,120,18,102,15.0,391,55,336,30,5,25,16.67,74.5,53.7
+2018,Norte,PA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,120,18,102,15.0,241,34,207,30,5,25,16.67,68.2,65.0
+2018,Norte,PA,Engenharia de Computacao,Bacharelado,5.0,185,31,154,16.76,716,111,605,30,5,25,16.67,68.8,56.2
+2018,Norte,AM,Ciencia da Computacao,Bacharelado,5.0,158,23,135,14.56,703,96,607,30,5,25,16.67,60.4,61.8
+2018,Norte,AM,Engenharia de Software,Bacharelado,5.0,120,22,98,18.33,499,85,414,30,5,25,16.67,67.4,59.8
+2018,Norte,AM,Sistemas de Informacao,Bacharelado,4.0,175,25,150,14.29,532,71,461,30,5,25,16.67,71.5,56.6
+2018,Norte,AM,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,120,17,103,14.17,256,35,221,30,5,25,16.67,71.6,58.9
+2018,Norte,AM,Engenharia de Computacao,Bacharelado,5.0,218,35,183,16.06,863,130,733,30,5,25,16.67,70.2,55.9
+2019,Sudeste,SP,Ciencia da Computacao,Bacharelado,5.0,1080,151,929,13.98,4678,605,4073,88,9,79,10.23,70.2,57.4
+2019,Sudeste,SP,Engenharia de Software,Bacharelado,5.0,1206,211,995,17.5,5201,839,4362,96,14,82,14.58,66.4,58.8
+2019,Sudeste,SP,Sistemas de Informacao,Bacharelado,4.0,1224,211,1013,17.24,4278,680,3598,123,15,108,12.2,70.7,57.1
+2019,Sudeste,SP,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1249,196,1053,15.69,2787,402,2385,182,19,163,10.44,75.6,61.2
+2019,Sudeste,SP,Engenharia de Computacao,Bacharelado,5.0,1080,164,916,15.19,4316,604,3712,80,8,72,10.0,72.6,60.4
+2019,Sudeste,RJ,Ciencia da Computacao,Bacharelado,5.0,1273,214,1059,16.81,4860,753,4107,103,14,89,13.59,65.2,58.0
+2019,Sudeste,RJ,Engenharia de Software,Bacharelado,5.0,1056,195,861,18.47,4663,796,3867,86,13,73,15.12,64.7,57.0
+2019,Sudeste,RJ,Sistemas de Informacao,Bacharelado,4.0,1257,189,1068,15.04,4237,586,3651,125,15,110,12.0,66.3,58.6
+2019,Sudeste,RJ,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1268,218,1050,17.19,2416,382,2034,226,32,194,14.16,62.2,53.8
+2019,Sudeste,RJ,Engenharia de Computacao,Bacharelado,5.0,1166,181,985,15.52,5052,724,4328,87,14,73,16.09,59.9,62.7
+2019,Sudeste,MG,Ciencia da Computacao,Bacharelado,5.0,1199,190,1009,15.85,4917,718,4199,100,11,89,11.0,69.3,55.5
+2019,Sudeste,MG,Engenharia de Software,Bacharelado,5.0,1265,230,1035,18.18,5656,946,4710,109,17,92,15.6,62.2,55.5
+2019,Sudeste,MG,Sistemas de Informacao,Bacharelado,4.0,1196,198,998,16.56,4279,652,3627,119,15,104,12.61,68.9,58.0
+2019,Sudeste,MG,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1231,181,1050,14.7,2755,373,2382,187,16,171,8.56,77.1,59.2
+2019,Sudeste,MG,Engenharia de Computacao,Bacharelado,5.0,1189,222,967,18.67,5018,862,4156,92,12,80,13.04,71.5,58.6
+2019,Sul,PR,Ciencia da Computacao,Bacharelado,5.0,736,108,628,14.67,2913,393,2520,64,7,57,10.94,67.4,53.9
+2019,Sul,PR,Engenharia de Software,Bacharelado,5.0,643,84,559,13.06,2448,296,2152,45,5,40,11.11,69.4,63.6
+2019,Sul,PR,Sistemas de Informacao,Bacharelado,4.0,637,95,542,14.91,2172,300,1872,56,6,50,10.71,71.0,62.4
+2019,Sul,PR,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,617,96,521,15.56,1357,196,1161,100,10,90,10.0,72.7,56.6
+2019,Sul,PR,Engenharia de Computacao,Bacharelado,5.0,423,75,348,17.73,1893,312,1581,33,5,28,15.15,69.1,58.8
+2019,Sul,SC,Ciencia da Computacao,Bacharelado,5.0,364,52,312,14.29,1439,192,1247,31,5,26,16.13,68.0,58.1
+2019,Sul,SC,Engenharia de Software,Bacharelado,5.0,524,88,436,16.79,2142,331,1811,41,6,35,14.63,62.5,59.6
+2019,Sul,SC,Sistemas de Informacao,Bacharelado,4.0,645,117,528,18.14,2073,347,1726,66,8,58,12.12,69.3,55.8
+2019,Sul,SC,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,685,110,575,16.06,1417,209,1208,101,13,88,12.87,68.7,61.5
+2019,Sul,SC,Engenharia de Computacao,Bacharelado,5.0,643,103,540,16.02,2605,387,2218,46,6,40,13.04,70.6,62.1
+2019,Sul,RS,Ciencia da Computacao,Bacharelado,5.0,483,81,402,16.77,1860,289,1571,36,6,30,16.67,61.1,62.3
+2019,Sul,RS,Engenharia de Software,Bacharelado,5.0,631,99,532,15.69,2531,365,2166,49,5,44,10.2,74.0,58.2
+2019,Sul,RS,Sistemas de Informacao,Bacharelado,4.0,691,95,596,13.75,2430,309,2121,66,7,59,10.61,67.9,60.4
+2019,Sul,RS,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,538,72,466,13.38,1206,148,1058,89,11,78,12.36,59.7,57.7
+2019,Sul,RS,Engenharia de Computacao,Bacharelado,5.0,456,77,379,16.89,1735,269,1466,35,5,30,14.29,63.6,59.5
+2019,Nordeste,BA,Ciencia da Computacao,Bacharelado,5.0,467,72,395,15.42,1917,272,1645,36,5,31,13.89,64.1,59.5
+2019,Nordeste,BA,Engenharia de Software,Bacharelado,5.0,365,53,312,14.52,1417,191,1226,31,5,26,16.13,62.3,57.4
+2019,Nordeste,BA,Sistemas de Informacao,Bacharelado,4.0,412,51,361,12.38,1406,161,1245,42,5,37,11.9,65.2,58.6
+2019,Nordeste,BA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,399,62,337,15.54,868,124,744,62,8,54,12.9,65.1,59.7
+2019,Nordeste,BA,Engenharia de Computacao,Bacharelado,5.0,364,51,313,14.01,1497,193,1304,30,5,25,16.67,61.9,62.1
+2019,Nordeste,PE,Ciencia da Computacao,Bacharelado,5.0,539,83,456,15.4,2036,290,1746,46,5,41,10.87,71.4,55.0
+2019,Nordeste,PE,Engenharia de Software,Bacharelado,5.0,410,71,339,17.32,1701,271,1430,35,5,30,14.29,67.5,55.1
+2019,Nordeste,PE,Sistemas de Informacao,Bacharelado,4.0,279,45,234,16.13,882,131,751,30,5,25,16.67,67.3,57.9
+2019,Nordeste,PE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,323,48,275,14.86,645,88,557,48,5,43,10.42,74.7,60.6
+2019,Nordeste,PE,Engenharia de Computacao,Bacharelado,5.0,407,73,334,17.94,1552,258,1294,31,5,26,16.13,77.5,61.0
+2019,Nordeste,CE,Ciencia da Computacao,Bacharelado,5.0,372,67,305,18.01,1430,240,1190,33,5,28,15.15,64.5,53.9
+2019,Nordeste,CE,Engenharia de Software,Bacharelado,5.0,482,90,392,18.67,1936,334,1602,37,5,32,13.51,68.1,58.4
+2019,Nordeste,CE,Sistemas de Informacao,Bacharelado,4.0,379,58,321,15.3,1171,167,1004,39,5,34,12.82,65.4,56.5
+2019,Nordeste,CE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,360,52,308,14.44,698,93,605,57,8,49,14.04,58.0,60.1
+2019,Nordeste,CE,Engenharia de Computacao,Bacharelado,5.0,439,69,370,15.72,1931,280,1651,34,5,29,14.71,65.7,60.3
+2019,Centro-Oeste,DF,Ciencia da Computacao,Bacharelado,5.0,244,35,209,14.34,1085,144,941,30,5,25,16.67,76.2,62.9
+2019,Centro-Oeste,DF,Engenharia de Software,Bacharelado,5.0,278,41,237,14.75,1081,146,935,30,5,25,16.67,64.9,52.6
+2019,Centro-Oeste,DF,Sistemas de Informacao,Bacharelado,4.0,120,19,101,15.83,368,54,314,30,5,25,16.67,61.9,60.4
+2019,Centro-Oeste,DF,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,120,19,101,15.83,246,36,210,30,5,25,16.67,65.4,58.1
+2019,Centro-Oeste,DF,Engenharia de Computacao,Bacharelado,5.0,135,20,115,14.81,512,72,440,30,5,25,16.67,65.6,60.3
+2019,Centro-Oeste,GO,Ciencia da Computacao,Bacharelado,5.0,292,49,243,16.78,1225,192,1033,30,5,25,16.67,58.1,55.6
+2019,Centro-Oeste,GO,Engenharia de Software,Bacharelado,5.0,250,38,212,15.2,1093,156,937,30,5,25,16.67,68.7,58.3
+2019,Centro-Oeste,GO,Sistemas de Informacao,Bacharelado,4.0,243,44,199,18.11,851,143,708,30,5,25,16.67,69.4,56.8
+2019,Centro-Oeste,GO,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,164,25,139,15.24,317,44,273,30,5,25,16.67,70.2,61.1
+2019,Centro-Oeste,GO,Engenharia de Computacao,Bacharelado,5.0,120,19,101,15.83,528,79,449,30,5,25,16.67,72.8,56.8
+2019,Norte,PA,Ciencia da Computacao,Bacharelado,5.0,120,17,103,14.17,491,64,427,30,5,25,16.67,72.2,55.5
+2019,Norte,PA,Engenharia de Software,Bacharelado,5.0,120,19,101,15.83,530,77,453,30,5,25,16.67,71.3,51.4
+2019,Norte,PA,Sistemas de Informacao,Bacharelado,4.0,171,29,142,16.96,524,82,442,30,5,25,16.67,68.7,59.7
+2019,Norte,PA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,120,18,102,15.0,260,36,224,30,5,25,16.67,70.5,64.8
+2019,Norte,PA,Engenharia de Computacao,Bacharelado,5.0,167,27,140,16.17,645,96,549,30,5,25,16.67,63.6,55.5
+2019,Norte,AM,Ciencia da Computacao,Bacharelado,5.0,273,45,228,16.48,1203,182,1021,30,5,25,16.67,72.2,56.5
+2019,Norte,AM,Engenharia de Software,Bacharelado,5.0,131,18,113,13.74,569,75,494,30,5,25,16.67,66.3,56.3
+2019,Norte,AM,Sistemas de Informacao,Bacharelado,4.0,230,39,191,16.96,778,124,654,30,5,25,16.67,69.7,63.6
+2019,Norte,AM,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,120,16,104,13.33,233,30,203,30,5,25,16.67,68.7,60.5
+2019,Norte,AM,Engenharia de Computacao,Bacharelado,5.0,120,14,106,11.67,535,61,474,30,5,25,16.67,69.1,54.6
+2020,Sudeste,SP,Ciencia da Computacao,Bacharelado,5.0,1419,234,1185,16.49,5340,810,4530,106,11,95,10.38,75.1,59.8
+2020,Sudeste,SP,Engenharia de Software,Bacharelado,5.0,1241,210,1031,16.92,4795,748,4047,88,10,78,11.36,75.5,62.0
+2020,Sudeste,SP,Sistemas de Informacao,Bacharelado,4.0,1351,209,1142,15.47,4810,687,4123,129,16,113,12.4,67.6,60.3
+2020,Sudeste,SP,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1427,243,1184,17.03,2889,454,2435,235,31,204,13.19,67.4,56.7
+2020,Sudeste,SP,Engenharia de Computacao,Bacharelado,5.0,1143,157,986,13.74,4746,603,4143,89,10,79,11.24,67.1,59.9
+2020,Sudeste,RJ,Ciencia da Computacao,Bacharelado,5.0,1325,199,1126,15.02,5418,751,4667,117,13,104,11.11,67.0,53.5
+2020,Sudeste,RJ,Engenharia de Software,Bacharelado,5.0,1204,191,1013,15.86,4965,725,4240,96,10,86,10.42,71.2,57.5
+2020,Sudeste,RJ,Sistemas de Informacao,Bacharelado,4.0,1310,177,1133,13.51,4426,551,3875,142,14,128,9.86,66.9,54.7
+2020,Sudeste,RJ,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1429,234,1195,16.38,2715,409,2306,223,32,191,14.35,64.9,60.0
+2020,Sudeste,RJ,Engenharia de Computacao,Bacharelado,5.0,1214,200,1014,16.47,4726,718,4008,100,12,88,12.0,67.9,56.4
+2020,Sudeste,MG,Ciencia da Computacao,Bacharelado,5.0,1166,191,975,16.38,5050,764,4286,107,10,97,9.35,73.6,50.0
+2020,Sudeste,MG,Engenharia de Software,Bacharelado,5.0,1057,152,905,14.38,4407,585,3822,88,10,78,11.36,66.6,56.9
+2020,Sudeste,MG,Sistemas de Informacao,Bacharelado,4.0,1111,168,943,15.12,3762,523,3239,113,14,99,12.39,66.6,57.8
+2020,Sudeste,MG,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1262,191,1071,15.13,2678,373,2305,216,22,194,10.19,70.9,54.6
+2020,Sudeste,MG,Engenharia de Computacao,Bacharelado,5.0,1182,201,981,17.01,5011,785,4226,96,13,83,13.54,66.6,57.3
+2020,Sul,PR,Ciencia da Computacao,Bacharelado,5.0,626,93,533,14.86,2749,376,2373,47,6,41,12.77,66.6,61.5
+2020,Sul,PR,Engenharia de Software,Bacharelado,5.0,474,81,393,17.09,1881,298,1583,34,6,28,17.65,61.3,63.3
+2020,Sul,PR,Sistemas de Informacao,Bacharelado,4.0,461,69,392,14.97,1488,206,1282,45,6,39,13.33,61.8,59.8
+2020,Sul,PR,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,458,86,372,18.78,953,165,788,77,13,64,16.88,61.0,56.4
+2020,Sul,PR,Engenharia de Computacao,Bacharelado,5.0,638,103,535,16.14,2775,414,2361,51,6,45,11.76,66.5,57.8
+2020,Sul,SC,Ciencia da Computacao,Bacharelado,5.0,585,80,505,13.68,2471,312,2159,48,5,43,10.42,65.5,56.7
+2020,Sul,SC,Engenharia de Software,Bacharelado,5.0,457,75,382,16.41,1807,273,1534,39,5,34,12.82,68.8,55.1
+2020,Sul,SC,Sistemas de Informacao,Bacharelado,4.0,593,81,512,13.66,2010,254,1756,57,6,51,10.53,66.1,59.6
+2020,Sul,SC,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,690,128,562,18.55,1465,251,1214,123,20,103,16.26,60.6,54.2
+2020,Sul,SC,Engenharia de Computacao,Bacharelado,5.0,511,83,428,16.24,1979,297,1682,40,5,35,12.5,66.6,58.6
+2020,Sul,RS,Ciencia da Computacao,Bacharelado,5.0,446,76,370,17.04,1802,284,1518,39,5,34,12.82,64.3,53.9
+2020,Sul,RS,Engenharia de Software,Bacharelado,5.0,482,86,396,17.84,2012,330,1682,38,5,33,13.16,76.3,57.1
+2020,Sul,RS,Sistemas de Informacao,Bacharelado,4.0,568,94,474,16.55,1777,270,1507,57,8,49,14.04,65.7,58.4
+2020,Sul,RS,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,765,123,642,16.08,1530,227,1303,121,16,105,13.22,66.6,58.7
+2020,Sul,RS,Engenharia de Computacao,Bacharelado,5.0,575,90,485,15.65,2369,344,2025,41,6,35,14.63,65.5,63.4
+2020,Nordeste,BA,Ciencia da Computacao,Bacharelado,5.0,464,71,393,15.3,2018,286,1732,35,5,30,14.29,63.6,60.8
+2020,Nordeste,BA,Engenharia de Software,Bacharelado,5.0,266,47,219,17.67,1015,168,847,30,5,25,16.67,67.7,59.9
+2020,Nordeste,BA,Sistemas de Informacao,Bacharelado,4.0,422,60,362,14.22,1487,195,1292,41,5,36,12.2,71.3,59.9
+2020,Nordeste,BA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,510,91,419,17.84,1118,184,934,89,11,78,12.36,67.7,53.0
+2020,Nordeste,BA,Engenharia de Computacao,Bacharelado,5.0,442,73,369,16.52,1717,262,1455,35,5,30,14.29,71.3,58.4
+2020,Nordeste,PE,Ciencia da Computacao,Bacharelado,5.0,443,70,373,15.8,1983,291,1692,34,5,29,14.71,67.8,60.0
+2020,Nordeste,PE,Engenharia de Software,Bacharelado,5.0,410,67,343,16.34,1635,245,1390,32,5,27,15.62,62.4,59.5
+2020,Nordeste,PE,Sistemas de Informacao,Bacharelado,4.0,324,59,265,18.21,1112,186,926,33,5,28,15.15,67.3,56.7
+2020,Nordeste,PE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,523,86,437,16.44,1043,159,884,80,9,71,11.25,71.5,58.8
+2020,Nordeste,PE,Engenharia de Computacao,Bacharelado,5.0,300,51,249,17.0,1130,178,952,30,5,25,16.67,68.3,61.2
+2020,Nordeste,CE,Ciencia da Computacao,Bacharelado,5.0,366,67,299,18.31,1504,254,1250,30,5,25,16.67,71.7,58.9
+2020,Nordeste,CE,Engenharia de Software,Bacharelado,5.0,273,37,236,13.55,1174,147,1027,30,5,25,16.67,66.3,57.2
+2020,Nordeste,CE,Sistemas de Informacao,Bacharelado,4.0,300,44,256,14.67,953,130,823,34,5,29,14.71,60.3,54.4
+2020,Nordeste,CE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,322,55,267,17.08,718,114,604,51,6,45,11.76,71.9,57.4
+2020,Nordeste,CE,Engenharia de Computacao,Bacharelado,5.0,404,69,335,17.08,1700,270,1430,30,5,25,16.67,72.7,62.9
+2020,Centro-Oeste,DF,Ciencia da Computacao,Bacharelado,5.0,120,19,101,15.83,465,70,395,30,5,25,16.67,65.5,56.3
+2020,Centro-Oeste,DF,Engenharia de Software,Bacharelado,5.0,153,27,126,17.65,580,96,484,30,5,25,16.67,66.5,54.5
+2020,Centro-Oeste,DF,Sistemas de Informacao,Bacharelado,4.0,267,47,220,17.6,825,135,690,30,5,25,16.67,65.8,59.9
+2020,Centro-Oeste,DF,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,220,30,190,13.64,461,59,402,36,5,31,13.89,64.6,58.5
+2020,Centro-Oeste,DF,Engenharia de Computacao,Bacharelado,5.0,174,29,145,16.67,669,105,564,30,5,25,16.67,69.1,59.0
+2020,Centro-Oeste,GO,Ciencia da Computacao,Bacharelado,5.0,256,49,207,19.14,976,173,803,30,5,25,16.67,61.0,54.2
+2020,Centro-Oeste,GO,Engenharia de Software,Bacharelado,5.0,274,40,234,14.6,1129,154,975,30,5,25,16.67,65.9,58.7
+2020,Centro-Oeste,GO,Sistemas de Informacao,Bacharelado,4.0,202,36,166,17.82,664,110,554,30,5,25,16.67,72.8,59.0
+2020,Centro-Oeste,GO,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,309,45,264,14.56,644,86,558,50,5,45,10.0,70.3,56.9
+2020,Centro-Oeste,GO,Engenharia de Computacao,Bacharelado,5.0,251,45,206,17.93,1101,181,920,30,5,25,16.67,69.6,60.1
+2020,Norte,PA,Ciencia da Computacao,Bacharelado,5.0,193,33,160,17.1,822,132,690,30,5,25,16.67,73.5,59.9
+2020,Norte,PA,Engenharia de Software,Bacharelado,5.0,139,22,117,15.83,556,84,472,30,5,25,16.67,65.2,59.5
+2020,Norte,PA,Sistemas de Informacao,Bacharelado,4.0,186,31,155,16.67,614,95,519,30,5,25,16.67,68.8,58.1
+2020,Norte,PA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,120,20,100,16.67,253,40,213,30,5,25,16.67,74.0,58.6
+2020,Norte,PA,Engenharia de Computacao,Bacharelado,5.0,174,27,147,15.52,723,104,619,30,5,25,16.67,67.6,58.8
+2020,Norte,AM,Ciencia da Computacao,Bacharelado,5.0,201,33,168,16.42,769,117,652,30,5,25,16.67,68.7,59.2
+2020,Norte,AM,Engenharia de Software,Bacharelado,5.0,138,21,117,15.22,590,85,505,30,5,25,16.67,68.5,55.9
+2020,Norte,AM,Sistemas de Informacao,Bacharelado,4.0,248,34,214,13.71,750,96,654,30,5,25,16.67,69.5,56.4
+2020,Norte,AM,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,142,18,124,12.68,307,37,270,30,5,25,16.67,65.8,63.6
+2020,Norte,AM,Engenharia de Computacao,Bacharelado,5.0,120,15,105,12.5,464,55,409,30,5,25,16.67,70.6,61.0
+2021,Sudeste,SP,Ciencia da Computacao,Bacharelado,5.0,1313,245,1068,18.66,5192,891,4301,104,14,90,13.46,70.6,57.7
+2021,Sudeste,SP,Engenharia de Software,Bacharelado,5.0,1371,206,1165,15.03,5550,770,4780,110,11,99,10.0,71.6,57.4
+2021,Sudeste,SP,Sistemas de Informacao,Bacharelado,4.0,1167,183,984,15.68,3522,508,3014,108,16,92,14.81,63.0,62.3
+2021,Sudeste,SP,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1217,223,994,18.32,2723,460,2263,196,27,169,13.78,69.1,57.3
+2021,Sudeste,SP,Engenharia de Computacao,Bacharelado,5.0,1280,227,1053,17.73,5610,917,4693,93,13,80,13.98,70.6,62.0
+2021,Sudeste,RJ,Ciencia da Computacao,Bacharelado,5.0,1239,220,1019,17.76,5386,880,4506,100,15,85,15.0,63.9,57.9
+2021,Sudeste,RJ,Engenharia de Software,Bacharelado,5.0,1253,195,1058,15.56,5103,730,4373,109,12,97,11.01,67.8,53.7
+2021,Sudeste,RJ,Sistemas de Informacao,Bacharelado,4.0,1234,193,1041,15.64,3901,562,3339,117,16,101,13.68,65.5,61.0
+2021,Sudeste,RJ,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1201,200,1001,16.65,2284,350,1934,224,27,197,12.05,66.2,50.7
+2021,Sudeste,RJ,Engenharia de Computacao,Bacharelado,5.0,1097,195,902,17.78,4685,768,3917,84,11,73,13.1,69.5,59.4
+2021,Sudeste,MG,Ciencia da Computacao,Bacharelado,5.0,1222,193,1029,15.79,4678,681,3997,105,12,93,11.43,68.0,54.5
+2021,Sudeste,MG,Engenharia de Software,Bacharelado,5.0,1344,242,1102,18.01,5604,928,4676,109,17,92,15.6,64.5,58.1
+2021,Sudeste,MG,Sistemas de Informacao,Bacharelado,4.0,1202,199,1003,16.56,3662,558,3104,124,17,107,13.71,64.0,57.2
+2021,Sudeste,MG,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1367,241,1126,17.63,2973,483,2490,227,32,195,14.1,66.0,56.7
+2021,Sudeste,MG,Engenharia de Computacao,Bacharelado,5.0,1246,193,1053,15.49,5332,760,4572,104,12,92,11.54,68.2,56.1
+2021,Sul,PR,Ciencia da Computacao,Bacharelado,5.0,616,106,510,17.21,2639,419,2220,46,7,39,15.22,65.7,61.3
+2021,Sul,PR,Engenharia de Software,Bacharelado,5.0,570,103,467,18.07,2486,414,2072,46,5,41,10.87,76.3,55.9
+2021,Sul,PR,Sistemas de Informacao,Bacharelado,4.0,699,118,581,16.88,2131,333,1798,73,10,63,13.7,63.9,56.4
+2021,Sul,PR,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,610,112,498,18.36,1257,212,1045,92,11,81,11.96,74.9,59.3
+2021,Sul,PR,Engenharia de Computacao,Bacharelado,5.0,564,95,469,16.84,2199,341,1858,44,6,38,13.64,66.0,58.6
+2021,Sul,SC,Ciencia da Computacao,Bacharelado,5.0,648,107,541,16.51,2783,423,2360,47,7,40,14.89,66.1,62.7
+2021,Sul,SC,Engenharia de Software,Bacharelado,5.0,462,67,395,14.5,2074,276,1798,33,5,28,15.15,61.8,64.0
+2021,Sul,SC,Sistemas de Informacao,Bacharelado,4.0,552,106,446,19.2,1945,346,1599,51,8,43,15.69,67.3,60.7
+2021,Sul,SC,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,613,87,526,14.19,1359,179,1180,106,10,96,9.43,70.1,54.2
+2021,Sul,SC,Engenharia de Computacao,Bacharelado,5.0,671,119,552,17.73,2582,424,2158,52,7,45,13.46,70.0,58.8
+2021,Sul,RS,Ciencia da Computacao,Bacharelado,5.0,516,80,436,15.5,2310,333,1977,42,5,37,11.9,69.3,57.1
+2021,Sul,RS,Engenharia de Software,Bacharelado,5.0,428,71,357,16.59,1884,288,1596,41,5,36,12.2,71.1,49.5
+2021,Sul,RS,Sistemas de Informacao,Bacharelado,4.0,652,91,561,13.96,2019,261,1758,65,6,59,9.23,69.5,57.7
+2021,Sul,RS,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,625,92,533,14.72,1248,170,1078,99,12,87,12.12,66.1,59.0
+2021,Sul,RS,Engenharia de Computacao,Bacharelado,5.0,557,97,460,17.41,2187,350,1837,44,7,37,15.91,59.6,58.8
+2021,Nordeste,BA,Ciencia da Computacao,Bacharelado,5.0,387,71,316,18.35,1523,259,1264,30,5,25,16.67,74.0,60.6
+2021,Nordeste,BA,Engenharia de Software,Bacharelado,5.0,380,61,319,16.05,1435,213,1222,30,5,25,16.67,71.4,61.7
+2021,Nordeste,BA,Sistemas de Informacao,Bacharelado,4.0,505,83,422,16.44,1759,268,1491,48,5,43,10.42,72.1,58.7
+2021,Nordeste,BA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,387,63,324,16.28,764,115,649,65,8,57,12.31,68.2,55.9
+2021,Nordeste,BA,Engenharia de Computacao,Bacharelado,5.0,397,60,337,15.11,1766,246,1520,37,5,32,13.51,68.3,52.0
+2021,Nordeste,PE,Ciencia da Computacao,Bacharelado,5.0,481,82,399,17.05,1967,311,1656,32,6,26,18.75,59.6,66.8
+2021,Nordeste,PE,Engenharia de Software,Bacharelado,5.0,338,58,280,17.16,1275,202,1073,30,5,25,16.67,72.4,54.9
+2021,Nordeste,PE,Sistemas de Informacao,Bacharelado,4.0,457,69,388,15.1,1636,227,1409,47,5,42,10.64,69.1,56.0
+2021,Nordeste,PE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,493,81,412,16.43,957,144,813,75,9,66,12.0,71.5,59.5
+2021,Nordeste,PE,Engenharia de Computacao,Bacharelado,5.0,420,72,348,17.14,1731,274,1457,33,5,28,15.15,71.9,58.9
+2021,Nordeste,CE,Ciencia da Computacao,Bacharelado,5.0,372,62,310,16.67,1654,255,1399,30,5,25,16.67,72.4,61.6
+2021,Nordeste,CE,Engenharia de Software,Bacharelado,5.0,459,68,391,14.81,1856,255,1601,37,5,32,13.51,64.9,58.9
+2021,Nordeste,CE,Sistemas de Informacao,Bacharelado,4.0,488,79,409,16.19,1693,254,1439,46,5,41,10.87,74.5,59.4
+2021,Nordeste,CE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,388,70,318,18.04,775,129,646,58,7,51,12.07,72.2,59.7
+2021,Nordeste,CE,Engenharia de Computacao,Bacharelado,5.0,465,82,383,17.63,1895,307,1588,36,5,31,13.89,67.4,58.4
+2021,Centro-Oeste,DF,Ciencia da Computacao,Bacharelado,5.0,190,31,159,16.32,758,116,642,30,5,25,16.67,62.9,53.1
+2021,Centro-Oeste,DF,Engenharia de Software,Bacharelado,5.0,133,25,108,18.8,543,95,448,30,5,25,16.67,65.4,54.0
+2021,Centro-Oeste,DF,Sistemas de Informacao,Bacharelado,4.0,335,61,274,18.21,1129,189,940,36,6,30,16.67,59.0,56.0
+2021,Centro-Oeste,DF,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,208,38,170,18.27,427,72,355,36,5,31,13.89,62.4,53.1
+2021,Centro-Oeste,DF,Engenharia de Computacao,Bacharelado,5.0,285,58,227,20.35,1198,224,974,30,5,25,16.67,70.7,59.7
+2021,Centro-Oeste,GO,Ciencia da Computacao,Bacharelado,5.0,183,31,152,16.94,813,129,684,30,5,25,16.67,65.0,57.2
+2021,Centro-Oeste,GO,Engenharia de Software,Bacharelado,5.0,120,19,101,15.83,475,72,403,30,5,25,16.67,71.9,56.1
+2021,Centro-Oeste,GO,Sistemas de Informacao,Bacharelado,4.0,120,20,100,16.67,403,64,339,30,5,25,16.67,64.0,60.8
+2021,Centro-Oeste,GO,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,125,20,105,16.0,242,36,206,30,5,25,16.67,64.1,59.7
+2021,Centro-Oeste,GO,Engenharia de Computacao,Bacharelado,5.0,351,59,292,16.81,1344,210,1134,30,5,25,16.67,61.6,59.3
+2021,Norte,PA,Ciencia da Computacao,Bacharelado,5.0,151,26,125,17.22,657,105,552,30,5,25,16.67,65.7,58.2
+2021,Norte,PA,Engenharia de Software,Bacharelado,5.0,190,32,158,16.84,798,124,674,30,5,25,16.67,68.2,58.1
+2021,Norte,PA,Sistemas de Informacao,Bacharelado,4.0,120,18,102,15.0,403,58,345,30,5,25,16.67,72.6,57.1
+2021,Norte,PA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,130,23,107,17.69,255,41,214,30,5,25,16.67,65.1,60.7
+2021,Norte,PA,Engenharia de Computacao,Bacharelado,5.0,129,23,106,17.83,548,93,455,30,5,25,16.67,69.0,55.7
+2021,Norte,AM,Ciencia da Computacao,Bacharelado,5.0,330,48,282,14.55,1279,174,1105,30,5,25,16.67,70.5,59.2
+2021,Norte,AM,Engenharia de Software,Bacharelado,5.0,138,22,116,15.94,519,78,441,30,5,25,16.67,72.9,62.9
+2021,Norte,AM,Sistemas de Informacao,Bacharelado,4.0,120,20,100,16.67,388,61,327,30,5,25,16.67,67.6,65.7
+2021,Norte,AM,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,120,22,98,18.33,244,43,201,30,5,25,16.67,71.9,61.3
+2021,Norte,AM,Engenharia de Computacao,Bacharelado,5.0,177,28,149,15.82,740,108,632,30,5,25,16.67,66.5,57.4
+2022,Sudeste,SP,Ciencia da Computacao,Bacharelado,5.0,1177,183,994,15.55,4613,661,3952,96,12,84,12.5,65.7,57.4
+2022,Sudeste,SP,Engenharia de Software,Bacharelado,5.0,1163,199,964,17.11,5059,798,4261,101,12,89,11.88,68.9,53.3
+2022,Sudeste,SP,Sistemas de Informacao,Bacharelado,4.0,1250,229,1021,18.32,4149,700,3449,137,21,116,15.33,63.3,54.3
+2022,Sudeste,SP,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1279,256,1023,20.02,2748,506,2242,207,35,172,16.91,65.2,57.8
+2022,Sudeste,SP,Engenharia de Computacao,Bacharelado,5.0,1268,218,1050,17.19,4921,779,4142,99,15,84,15.15,64.0,59.9
+2022,Sudeste,RJ,Ciencia da Computacao,Bacharelado,5.0,1150,198,952,17.22,4700,744,3956,85,13,72,15.29,65.1,61.7
+2022,Sudeste,RJ,Engenharia de Software,Bacharelado,5.0,1311,236,1075,18.0,5827,965,4862,115,16,99,13.91,65.9,53.8
+2022,Sudeste,RJ,Sistemas de Informacao,Bacharelado,4.0,1229,224,1005,18.23,4307,723,3584,114,12,102,10.53,77.3,59.2
+2022,Sudeste,RJ,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1239,206,1033,16.63,2382,364,2018,190,24,166,12.63,70.0,59.7
+2022,Sudeste,RJ,Engenharia de Computacao,Bacharelado,5.0,1138,179,959,15.73,4574,663,3911,91,14,77,15.38,60.7,59.5
+2022,Sudeste,MG,Ciencia da Computacao,Bacharelado,5.0,1135,157,978,13.83,4767,608,4159,89,8,81,8.99,71.3,58.1
+2022,Sudeste,MG,Engenharia de Software,Bacharelado,5.0,1244,212,1032,17.04,5459,858,4601,100,13,87,13.0,68.3,57.7
+2022,Sudeste,MG,Sistemas de Informacao,Bacharelado,4.0,1297,216,1081,16.65,4566,700,3866,124,16,108,12.9,70.3,59.8
+2022,Sudeste,MG,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1183,198,985,16.74,2396,369,2027,199,23,176,11.56,70.1,55.3
+2022,Sudeste,MG,Engenharia de Computacao,Bacharelado,5.0,1226,209,1017,17.05,5186,815,4371,97,13,84,13.4,67.1,58.6
+2022,Sul,PR,Ciencia da Computacao,Bacharelado,5.0,758,126,632,16.62,3277,501,2776,66,8,58,12.12,68.0,54.1
+2022,Sul,PR,Engenharia de Software,Bacharelado,5.0,475,79,396,16.63,1912,292,1620,38,5,33,13.16,70.0,58.2
+2022,Sul,PR,Sistemas de Informacao,Bacharelado,4.0,416,67,349,16.11,1374,203,1171,42,5,37,11.9,64.2,57.6
+2022,Sul,PR,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,464,83,381,17.89,977,161,816,73,11,62,15.07,64.1,59.3
+2022,Sul,PR,Engenharia de Computacao,Bacharelado,5.0,505,85,420,16.83,2270,355,1915,41,5,36,12.2,68.6,57.0
+2022,Sul,SC,Ciencia da Computacao,Bacharelado,5.0,511,85,426,16.63,2181,334,1847,42,5,37,11.9,68.1,55.8
+2022,Sul,SC,Engenharia de Software,Bacharelado,5.0,438,80,358,18.26,1847,313,1534,34,6,28,17.65,57.8,60.8
+2022,Sul,SC,Sistemas de Informacao,Bacharelado,4.0,451,75,376,16.63,1452,223,1229,45,5,40,11.11,72.8,57.1
+2022,Sul,SC,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,631,115,516,18.23,1185,198,987,117,15,102,12.82,65.7,50.2
+2022,Sul,SC,Engenharia de Computacao,Bacharelado,5.0,517,91,426,17.6,2146,349,1797,41,6,35,14.63,64.0,57.9
+2022,Sul,RS,Ciencia da Computacao,Bacharelado,5.0,404,81,323,20.05,1770,328,1442,33,5,28,15.15,67.9,55.2
+2022,Sul,RS,Engenharia de Software,Bacharelado,5.0,525,82,443,15.62,2259,327,1932,44,6,38,13.64,58.8,56.7
+2022,Sul,RS,Sistemas de Informacao,Bacharelado,4.0,491,67,424,13.65,1704,214,1490,46,5,41,10.87,65.3,61.1
+2022,Sul,RS,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,512,101,411,19.73,1008,183,825,77,13,64,16.88,67.6,60.8
+2022,Sul,RS,Engenharia de Computacao,Bacharelado,5.0,673,127,546,18.87,2975,517,2458,46,6,40,13.04,73.2,62.7
+2022,Nordeste,BA,Ciencia da Computacao,Bacharelado,5.0,410,65,345,15.85,1583,232,1351,30,5,25,16.67,68.4,63.2
+2022,Nordeste,BA,Engenharia de Software,Bacharelado,5.0,389,67,322,17.22,1483,235,1248,31,5,26,16.13,66.5,58.6
+2022,Nordeste,BA,Sistemas de Informacao,Bacharelado,4.0,300,46,254,15.33,962,138,824,30,5,25,16.67,70.7,61.5
+2022,Nordeste,BA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,371,61,310,16.44,709,107,602,55,6,49,10.91,72.7,60.2
+2022,Nordeste,BA,Engenharia de Computacao,Bacharelado,5.0,487,77,410,15.81,2054,301,1753,40,5,35,12.5,63.0,56.5
+2022,Nordeste,PE,Ciencia da Computacao,Bacharelado,5.0,430,67,363,15.58,1862,269,1593,30,5,25,16.67,69.8,64.5
+2022,Nordeste,PE,Engenharia de Software,Bacharelado,5.0,356,65,291,18.26,1596,271,1325,30,5,25,16.67,73.8,63.4
+2022,Nordeste,PE,Sistemas de Informacao,Bacharelado,4.0,467,84,383,17.99,1584,262,1322,49,7,42,14.29,66.5,55.5
+2022,Nordeste,PE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,324,45,279,13.89,660,85,575,51,5,46,9.8,70.3,58.4
+2022,Nordeste,PE,Engenharia de Computacao,Bacharelado,5.0,369,61,308,16.53,1438,219,1219,30,5,25,16.67,69.2,60.4
+2022,Nordeste,CE,Ciencia da Computacao,Bacharelado,5.0,476,77,399,16.18,2092,312,1780,40,5,35,12.5,71.4,55.6
+2022,Nordeste,CE,Engenharia de Software,Bacharelado,5.0,505,85,420,16.83,2169,337,1832,37,5,32,13.51,70.7,61.5
+2022,Nordeste,CE,Sistemas de Informacao,Bacharelado,4.0,422,63,359,14.93,1515,211,1304,42,5,37,11.9,67.6,57.7
+2022,Nordeste,CE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,473,84,389,17.76,924,152,772,74,9,65,12.16,73.0,58.1
+2022,Nordeste,CE,Engenharia de Computacao,Bacharelado,5.0,432,84,348,19.44,1811,327,1484,35,6,29,17.14,60.4,58.2
+2022,Centro-Oeste,DF,Ciencia da Computacao,Bacharelado,5.0,348,62,286,17.82,1532,254,1278,30,5,25,16.67,73.2,60.0
+2022,Centro-Oeste,DF,Engenharia de Software,Bacharelado,5.0,192,29,163,15.1,721,101,620,30,5,25,16.67,71.3,55.2
+2022,Centro-Oeste,DF,Sistemas de Informacao,Bacharelado,4.0,307,50,257,16.29,958,145,813,31,5,26,16.13,74.7,59.2
+2022,Centro-Oeste,DF,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,120,21,99,17.5,240,39,201,30,5,25,16.67,69.1,62.4
+2022,Centro-Oeste,DF,Engenharia de Computacao,Bacharelado,5.0,120,18,102,15.0,463,65,398,30,5,25,16.67,70.9,56.9
+2022,Centro-Oeste,GO,Ciencia da Computacao,Bacharelado,5.0,342,56,286,16.37,1509,229,1280,30,5,25,16.67,61.2,62.4
+2022,Centro-Oeste,GO,Engenharia de Software,Bacharelado,5.0,338,53,285,15.68,1268,186,1082,30,5,25,16.67,61.9,61.8
+2022,Centro-Oeste,GO,Sistemas de Informacao,Bacharelado,4.0,159,33,126,20.75,538,103,435,30,5,25,16.67,68.5,55.9
+2022,Centro-Oeste,GO,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,352,70,282,19.89,739,135,604,52,7,45,13.46,72.1,59.8
+2022,Centro-Oeste,GO,Engenharia de Computacao,Bacharelado,5.0,266,43,223,16.17,1096,164,932,30,5,25,16.67,72.5,56.1
+2022,Norte,PA,Ciencia da Computacao,Bacharelado,5.0,228,41,187,17.98,943,157,786,30,5,25,16.67,63.4,57.4
+2022,Norte,PA,Engenharia de Software,Bacharelado,5.0,120,17,103,14.17,457,60,397,30,5,25,16.67,69.9,53.9
+2022,Norte,PA,Sistemas de Informacao,Bacharelado,4.0,168,30,138,17.86,546,90,456,30,5,25,16.67,72.9,59.7
+2022,Norte,PA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,134,20,114,14.93,293,42,251,30,5,25,16.67,72.8,52.2
+2022,Norte,PA,Engenharia de Computacao,Bacharelado,5.0,120,21,99,17.5,482,78,404,30,5,25,16.67,68.6,52.7
+2022,Norte,AM,Ciencia da Computacao,Bacharelado,5.0,178,30,148,16.85,702,109,593,30,5,25,16.67,72.1,57.4
+2022,Norte,AM,Engenharia de Software,Bacharelado,5.0,123,21,102,17.07,535,87,448,30,5,25,16.67,63.3,49.4
+2022,Norte,AM,Sistemas de Informacao,Bacharelado,4.0,150,29,121,19.33,489,88,401,30,5,25,16.67,71.6,60.3
+2022,Norte,AM,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,181,27,154,14.92,348,49,299,30,5,25,16.67,71.1,61.7
+2022,Norte,AM,Engenharia de Computacao,Bacharelado,5.0,144,24,120,16.67,568,87,481,30,5,25,16.67,69.4,57.3
+2023,Sudeste,SP,Ciencia da Computacao,Bacharelado,5.0,1156,186,970,16.09,4993,740,4253,92,9,83,9.78,74.0,57.2
+2023,Sudeste,SP,Engenharia de Software,Bacharelado,5.0,1222,200,1022,16.37,4613,695,3918,104,12,92,11.54,68.4,54.6
+2023,Sudeste,SP,Sistemas de Informacao,Bacharelado,4.0,1082,172,910,15.9,3830,562,3268,105,13,92,12.38,68.3,59.5
+2023,Sudeste,SP,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1098,183,915,16.67,2359,362,1997,173,26,147,15.03,63.6,59.7
+2023,Sudeste,SP,Engenharia de Computacao,Bacharelado,5.0,1117,235,882,21.04,5003,972,4031,85,18,67,21.18,61.5,61.5
+2023,Sudeste,RJ,Ciencia da Computacao,Bacharelado,5.0,1165,189,976,16.22,5111,765,4346,76,10,66,13.16,72.1,66.0
+2023,Sudeste,RJ,Engenharia de Software,Bacharelado,5.0,1200,212,988,17.67,5137,837,4300,96,14,82,14.58,64.7,58.3
+2023,Sudeste,RJ,Sistemas de Informacao,Bacharelado,4.0,1138,149,989,13.09,3527,425,3102,100,12,88,12.0,66.2,64.0
+2023,Sudeste,RJ,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1365,217,1148,15.9,2838,416,2422,229,27,202,11.79,68.1,55.8
+2023,Sudeste,RJ,Engenharia de Computacao,Bacharelado,5.0,1209,236,973,19.52,4580,824,3756,94,16,78,17.02,65.5,59.8
+2023,Sudeste,MG,Ciencia da Computacao,Bacharelado,5.0,1167,195,972,16.71,4665,718,3947,84,12,72,14.29,68.5,62.9
+2023,Sudeste,MG,Engenharia de Software,Bacharelado,5.0,1249,213,1036,17.05,5507,867,4640,97,14,83,14.43,66.6,59.5
+2023,Sudeste,MG,Sistemas de Informacao,Bacharelado,4.0,1249,217,1032,17.37,4325,694,3631,123,15,108,12.2,71.5,57.8
+2023,Sudeste,MG,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,1209,265,944,21.92,2314,468,1846,181,29,152,16.02,72.2,59.5
+2023,Sudeste,MG,Engenharia de Computacao,Bacharelado,5.0,1328,221,1107,16.64,5940,909,5031,115,13,102,11.3,68.5,53.7
+2023,Sul,PR,Ciencia da Computacao,Bacharelado,5.0,634,104,530,16.4,2652,402,2250,47,5,42,10.64,72.8,59.6
+2023,Sul,PR,Engenharia de Software,Bacharelado,5.0,622,107,515,17.2,2581,408,2173,51,6,45,11.76,69.9,55.5
+2023,Sul,PR,Sistemas de Informacao,Bacharelado,4.0,509,96,413,18.86,1788,313,1475,48,7,41,14.58,66.9,59.5
+2023,Sul,PR,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,517,86,431,16.63,1142,175,967,82,12,70,14.63,64.2,59.3
+2023,Sul,PR,Engenharia de Computacao,Bacharelado,5.0,726,115,611,15.84,2767,404,2363,57,7,50,12.28,68.8,58.7
+2023,Sul,SC,Ciencia da Computacao,Bacharelado,5.0,602,105,497,17.44,2446,394,2052,47,7,40,14.89,63.8,59.3
+2023,Sul,SC,Engenharia de Software,Bacharelado,5.0,546,103,443,18.86,2113,368,1745,43,6,37,13.95,68.1,57.2
+2023,Sul,SC,Sistemas de Informacao,Bacharelado,4.0,704,125,579,17.76,2488,408,2080,71,9,62,12.68,68.8,56.9
+2023,Sul,SC,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,588,100,488,17.01,1283,201,1082,88,9,79,10.23,75.2,59.1
+2023,Sul,SC,Engenharia de Computacao,Bacharelado,5.0,536,78,458,14.55,2340,313,2027,46,6,40,13.04,59.5,56.2
+2023,Sul,RS,Ciencia da Computacao,Bacharelado,5.0,664,115,549,17.32,2656,426,2230,54,6,48,11.11,70.2,55.5
+2023,Sul,RS,Engenharia de Software,Bacharelado,5.0,515,86,429,16.7,2065,320,1745,41,5,36,12.2,74.5,57.0
+2023,Sul,RS,Sistemas de Informacao,Bacharelado,4.0,658,130,528,19.76,2113,384,1729,60,10,50,16.67,67.6,61.7
+2023,Sul,RS,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,564,99,465,17.55,1084,176,908,85,14,71,16.47,63.3,61.6
+2023,Sul,RS,Engenharia de Computacao,Bacharelado,5.0,523,93,430,17.78,2029,332,1697,40,6,34,15.0,66.4,59.6
+2023,Nordeste,BA,Ciencia da Computacao,Bacharelado,5.0,367,68,299,18.53,1553,266,1287,30,5,25,16.67,68.5,63.8
+2023,Nordeste,BA,Engenharia de Software,Bacharelado,5.0,327,53,274,16.21,1234,187,1047,30,5,25,16.67,72.1,54.0
+2023,Nordeste,BA,Sistemas de Informacao,Bacharelado,4.0,465,86,379,18.49,1580,268,1312,46,6,40,13.04,69.6,57.3
+2023,Nordeste,BA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,461,93,368,20.17,883,165,718,85,14,71,16.47,61.2,51.2
+2023,Nordeste,BA,Engenharia de Computacao,Bacharelado,5.0,419,80,339,19.09,1690,297,1393,33,5,28,15.15,65.9,57.7
+2023,Nordeste,PE,Ciencia da Computacao,Bacharelado,5.0,434,77,357,17.74,1718,281,1437,33,5,28,15.15,66.3,60.3
+2023,Nordeste,PE,Engenharia de Software,Bacharelado,5.0,423,76,347,17.97,1841,304,1537,31,5,26,16.13,64.3,61.3
+2023,Nordeste,PE,Sistemas de Informacao,Bacharelado,4.0,365,68,297,18.63,1286,221,1065,37,5,32,13.51,69.4,56.1
+2023,Nordeste,PE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,335,59,276,17.61,658,106,552,54,7,47,12.96,67.9,57.1
+2023,Nordeste,PE,Engenharia de Computacao,Bacharelado,5.0,471,71,400,15.07,1871,259,1612,40,5,35,12.5,72.2,55.4
+2023,Nordeste,CE,Ciencia da Computacao,Bacharelado,5.0,442,83,359,18.78,1854,321,1533,35,5,30,14.29,67.6,57.5
+2023,Nordeste,CE,Engenharia de Software,Bacharelado,5.0,413,79,334,19.13,1568,277,1291,30,5,25,16.67,69.4,61.5
+2023,Nordeste,CE,Sistemas de Informacao,Bacharelado,4.0,429,79,350,18.41,1500,254,1246,40,6,34,15.0,68.8,61.0
+2023,Nordeste,CE,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,191,35,156,18.32,380,64,316,31,5,26,16.13,73.9,56.9
+2023,Nordeste,CE,Engenharia de Computacao,Bacharelado,5.0,478,85,393,17.78,1951,320,1631,34,5,29,14.71,74.4,61.9
+2023,Centro-Oeste,DF,Ciencia da Computacao,Bacharelado,5.0,335,62,273,18.51,1315,225,1090,30,5,25,16.67,64.1,58.1
+2023,Centro-Oeste,DF,Engenharia de Software,Bacharelado,5.0,183,25,158,13.66,775,99,676,30,5,25,16.67,68.5,59.7
+2023,Centro-Oeste,DF,Sistemas de Informacao,Bacharelado,4.0,207,41,166,19.81,699,128,571,30,5,25,16.67,67.6,57.4
+2023,Centro-Oeste,DF,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,168,23,145,13.69,317,41,276,30,5,25,16.67,66.3,55.9
+2023,Centro-Oeste,DF,Engenharia de Computacao,Bacharelado,5.0,120,20,100,16.67,504,80,424,30,5,25,16.67,64.4,56.0
+2023,Centro-Oeste,GO,Ciencia da Computacao,Bacharelado,5.0,187,32,155,17.11,702,113,589,30,5,25,16.67,66.8,55.7
+2023,Centro-Oeste,GO,Engenharia de Software,Bacharelado,5.0,229,44,185,19.21,946,169,777,30,5,25,16.67,69.5,57.5
+2023,Centro-Oeste,GO,Sistemas de Informacao,Bacharelado,4.0,141,24,117,17.02,475,75,400,30,5,25,16.67,66.7,55.6
+2023,Centro-Oeste,GO,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,290,50,240,17.24,597,96,501,48,6,42,12.5,66.4,56.0
+2023,Centro-Oeste,GO,Engenharia de Computacao,Bacharelado,5.0,120,17,103,14.17,486,65,421,30,5,25,16.67,69.1,59.5
+2023,Norte,PA,Ciencia da Computacao,Bacharelado,5.0,120,22,98,18.33,524,90,434,30,5,25,16.67,68.6,56.2
+2023,Norte,PA,Engenharia de Software,Bacharelado,5.0,120,21,99,17.5,484,80,404,30,5,25,16.67,59.4,55.8
+2023,Norte,PA,Sistemas de Informacao,Bacharelado,4.0,136,21,115,15.44,469,69,400,30,5,25,16.67,70.0,57.5
+2023,Norte,PA,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,251,48,203,19.12,504,89,415,40,6,34,15.0,67.6,58.1
+2023,Norte,PA,Engenharia de Computacao,Bacharelado,5.0,209,37,172,17.7,879,144,735,30,5,25,16.67,69.5,59.9
+2023,Norte,AM,Ciencia da Computacao,Bacharelado,5.0,157,25,132,15.92,605,91,514,30,5,25,16.67,67.9,57.4
+2023,Norte,AM,Engenharia de Software,Bacharelado,5.0,142,20,122,14.08,593,80,513,30,5,25,16.67,60.2,60.2
+2023,Norte,AM,Sistemas de Informacao,Bacharelado,4.0,221,42,179,19.0,775,138,637,30,5,25,16.67,65.4,63.3
+2023,Norte,AM,Analise e Desenv. de Sistemas (ADS),Tecnologo,2.5,120,22,98,18.33,238,41,197,30,5,25,16.67,66.9,62.3
+2023,Norte,AM,Engenharia de Computacao,Bacharelado,5.0,195,35,160,17.95,856,143,713,30,5,25,16.67,67.5,60.4
