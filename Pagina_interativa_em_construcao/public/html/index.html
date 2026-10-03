@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#123B5D" />
+  <title>People Analytics | Mulheres em Tecnologia</title>
+  <meta name="description" content="Dashboard de People Analytics: trajetória nos estudos, mercado de trabalho, equidade salarial e calculadora de paridade." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <main class="container-xxl py-4 px-3 px-md-4">
+
+    <!-- ====================== ABA 1: ESTUDOS ====================== -->
+    <section class="tab-panel" id="tab-studies" role="tabpanel" aria-labelledby="step-studies">
+      <header class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">People Analytics</p>
+          <h1 class="hero-title">Trajetória Feminina</h1>
+          <p class="hero-subtitle">Nos Estudos de Tech</p>
+        </div>
+        <div class="hero-tagline">
+          <span>Da sala de aula<br />a novas possibilidades</span>
+        </div>
+        <div class="hero-image">
+          <img src="images/studies.png" alt="Estudante de tecnologia em ambiente acadêmico" />
+        </div>
+      </header>
+
+      <div class="filters row g-3">
+        <div class="col-12 col-md-4"><label class="form-label" for="f-s-regiao">Região</label><select id="f-s-regiao" class="form-select" data-options="regiao"></select></div>
+        <div class="col-12 col-md-4"><label class="form-label" for="f-s-ano">Ano</label><select id="f-s-ano" class="form-select" data-options="ano"></select></div>
+        <div class="col-12 col-md-4"><label class="form-label" for="f-s-curso">Curso</label><select id="f-s-curso" class="form-select" data-options="curso"></select></div>
+      </div>
+
+      <div class="row g-3 mb-3">
+        <div class="col-12 col-md-4">
+          <article class="metric metric-blue">
+            <span class="metric-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19c0-3.3 2.7-6 6-6s6 2.7 6 6M14 19c0-2.5 1.5-4.5 3-4.5s4 1.5 4 4.5"/></svg>
+            </span>
+            <div><p class="metric-label">Mulheres ingressantes em TI</p><p class="metric-value">17,02%</p></div>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article class="metric metric-peach">
+            <span class="metric-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/></svg>
+            </span>
+            <div><p class="metric-label">Mulheres concluintes em TI</p><p class="metric-value">14,55%</p></div>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article class="metric metric-sage">
+            <span class="metric-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M5 20V12M10 20V8M15 20v-5M20 20V5"/></svg>
+            </span>
+            <div><p class="metric-label">Diferença entre ingresso e conclusão</p><p class="metric-value">3,13 p.p.</p></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="row g-3 mb-3">
+        <div class="col-12 col-lg-7">
+          <article class="panel h-100">
+            <h2 class="panel-title">Ingresso × Conclusão</h2>
+            <p class="panel-subtitle">Participação feminina por curso (%)</p>
+            <div class="dumbbell" id="dumbbell"></div>
+            <div class="legend"><span><i style="background:var(--sage)"></i>Concluintes</span><span><i style="background:var(--navy)"></i>Ingressantes</span></div>
+          </article>
+        </div>
+        <div class="col-12 col-lg-5">
+          <article class="panel h-100">
+            <h2 class="panel-title">Evasão estimada por gênero</h2>
+            <p class="panel-subtitle">Distribuição da evasão nos cursos de TI</p>
+            <div class="d-flex flex-column flex-sm-row align-items-center gap-3">
+              <div class="chart-box chart-sm flex-grow-1 w-100"><canvas id="chart-dropout" aria-label="Gráfico de evasão por gênero" role="img"></canvas></div>
+              <div class="highlight highlight-sage">
+                <p class="metric-label mb-1">Diferença de evasão estimada</p>
+                <p class="metric-value">9,69 p.p.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12 col-lg-6">
+          <article class="panel h-100">
+            <h2 class="panel-title">Jornada na formação</h2>
+            <p class="panel-subtitle">Ingresso, conclusão e evasão</p>
+            <div class="chart-box"><canvas id="chart-journey" aria-label="Gráfico da jornada na formação" role="img"></canvas></div>
+          </article>
+        </div>
+        <div class="col-12 col-lg-6">
+          <article class="panel h-100">
+            <h2 class="panel-title">Referência INEP × Cenário sintético</h2>
+            <p class="panel-subtitle">Percentual de mulheres concluintes na área de TI</p>
+            <div class="d-flex flex-column flex-sm-row align-items-center gap-3">
+              <div class="chart-box flex-grow-1 w-100"><canvas id="chart-inep" aria-label="Gráfico INEP versus base sintética" role="img"></canvas></div>
+              <div class="highlight highlight-blue">
+                <p class="metric-label mb-1">Aderência base sintética × INEP</p>
+                <p class="metric-value">98,11%</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== ABA 2: MERCADO ====================== -->
+    <section class="tab-panel" id="tab-market" role="tabpanel" aria-labelledby="step-market" hidden>
+      <header class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">People Analytics</p>
+          <h1 class="hero-title">Mulheres no Mercado de Tecnologia</h1>
+          <p class="hero-subtitle">Oportunidades em Tecnologia</p>
+        </div>
+        <div class="hero-tagline"><span>Dados para<br />carreiras mais<br />equitativas</span></div>
+        <div class="hero-image">
+          <img src="images/market.png" alt="Profissional de tecnologia sorrindo" />
+        </div>
+      </header>
+
+      <div class="filters row g-3">
+        <div class="col-6 col-md-3"><label class="form-label" for="f-m-ano">Ano</label><select id="f-m-ano" class="form-select" data-options="ano"></select></div>
+        <div class="col-6 col-md-3"><label class="form-label" for="f-m-area">Área</label><select id="f-m-area" class="form-select" data-options="area"></select></div>
+        <div class="col-6 col-md-3"><label class="form-label" for="f-m-regiao">Região</label><select id="f-m-regiao" class="form-select" data-options="regiao"></select></div>
+        <div class="col-6 col-md-3"><label class="form-label" for="f-m-sen">Senioridade</label><select id="f-m-sen" class="form-select" data-options="senioridade"></select></div>
+      </div>
+
+      <div class="row g-3 mb-3">
+        <div class="col-12 col-md-4">
+          <article class="metric metric-peach">
+            <span class="metric-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg></span>
+            <div><p class="metric-label">Senioridade mais ocupada</p><p class="metric-value">Júnior</p><p class="metric-note">47,36% das mulheres</p></div>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article class="metric metric-sage">
+            <span class="metric-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg></span>
+            <div><p class="metric-label">Mulheres na liderança</p><p class="metric-value">6,60%</p></div>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article class="metric metric-blue">
+            <span class="metric-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/></svg></span>
+            <div><p class="metric-label">Mulheres no mercado tech</p><p class="metric-value">20,69%</p></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12 col-lg-6">
+          <article class="panel h-100">
+            <h2 class="panel-title">Experiência × Salário</h2>
+            <p class="panel-subtitle">Relação por gênero</p>
+            <div class="chart-box chart-lg"><canvas id="chart-scatter" aria-label="Dispersão de experiência por salário" role="img"></canvas></div>
+          </article>
+        </div>
+        <div class="col-12 col-lg-6">
+          <article class="panel h-100">
+            <h2 class="panel-title">Salário por senioridade</h2>
+            <p class="panel-subtitle">Comparativo entre mulheres e homens</p>
+            <div class="chart-box chart-lg"><canvas id="chart-market-salary" aria-label="Salário por senioridade" role="img"></canvas></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== ABA 3: EQUIDADE ====================== -->
+    <section class="tab-panel" id="tab-equity" role="tabpanel" aria-labelledby="step-equity" hidden>
+      <header class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">People Analytics</p>
+          <h1 class="hero-title">Equidade Salarial</h1>
+          <p class="hero-subtitle">Da evidência à ação</p>
+        </div>
+        <div class="hero-tagline"><span>Dados para<br />carreiras mais<br />equitativas</span></div>
+        <div class="hero-image">
+          <img src="images/equity.png" alt="Profissional confiante em ambiente de trabalho" />
+        </div>
+      </header>
+
+      <div class="filters row g-3">
+        <div class="col-6 col-md-3"><label class="form-label" for="f-e-ano">Ano</label><select id="f-e-ano" class="form-select" data-options="ano"></select></div>
+        <div class="col-6 col-md-3"><label class="form-label" for="f-e-area">Área</label><select id="f-e-area" class="form-select" data-options="area"></select></div>
+        <div class="col-6 col-md-3"><label class="form-label" for="f-e-regiao">Região</label><select id="f-e-regiao" class="form-select" data-options="regiao"></select></div>
+        <div class="col-6 col-md-3"><label class="form-label" for="f-e-sen">Senioridade</label><select id="f-e-sen" class="form-select" data-options="senioridade"></select></div>
+      </div>
+
+      <div class="row g-3 mb-3">
+        <div class="col-12 col-lg-6">
+          <article class="metric metric-peach h-100">
+            <span class="metric-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19c0-3.3 2.7-6 6-6s6 2.7 6 6M14 19c0-2.5 1.5-4.5 3-4.5s4 1.5 4 4.5"/></svg></span>
+            <div class="d-flex flex-wrap gap-4">
+              <div><p class="metric-label">Salário feminino</p><p class="metric-value">R$ 7,73 mil</p></div>
+              <div class="divider-v"></div>
+              <div><p class="metric-label">Salário masculino</p><p class="metric-value">R$ 13,79 mil</p></div>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-lg-6">
+          <article class="metric metric-sage h-100">
+            <span class="metric-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 20V12M10 20V8M15 20v-5M20 20V5"/></svg></span>
+            <div class="d-flex flex-wrap gap-4">
+              <div><p class="metric-label">Gap salarial</p><p class="metric-value">43,93%</p></div>
+              <div class="divider-v"></div>
+              <div>
+                <p class="metric-label fw-semibold text-navy">Análise estatística</p>
+                <p class="metric-note mb-0">Diferença significativa por senioridade</p>
+                <p class="metric-note fst-italic">Welch · p &lt; 0,001</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="row g-3 mb-3">
+        <div class="col-12 col-lg-6">
+          <article class="panel h-100">
+            <h2 class="panel-title">Salário por senioridade</h2>
+            <p class="panel-subtitle">Comparativo entre mulheres e homens</p>
+            <div class="chart-box"><canvas id="chart-equity-salary" aria-label="Salário por senioridade" role="img"></canvas></div>
+          </article>
+        </div>
+        <div class="col-12 col-lg-6">
+          <article class="panel h-100">
+            <h2 class="panel-title">Representatividade × Gap salarial</h2>
+            <p class="panel-subtitle">Comparativo por senioridade (%)</p>
+            <div class="chart-box"><canvas id="chart-representation" aria-label="Representatividade versus gap salarial" role="img"></canvas></div>
+          </article>
+        </div>
+      </div>
+
+      <article class="panel">
+        <div class="row g-4 align-items-center">
+          <div class="col-12 col-lg-4">
+            <h2 class="panel-title">Simulador de equidade salarial</h2>
+            <p class="panel-subtitle">Cenário de investimento para redução do gap</p>
+            <label for="sim-range" class="form-label d-flex justify-content-between">
+              <span>Redução do gap</span><strong id="sim-pct" class="text-navy">50%</strong>
+            </label>
+            <input type="range" class="form-range" id="sim-range" min="0" max="100" step="5" value="50" />
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="row g-3">
+              <div class="col-12 col-sm-4"><div class="sim-stat"><p class="metric-label">Investimento estimado (ano)</p><p class="metric-value" id="sim-invest">-</p></div></div>
+              <div class="col-12 col-sm-4"><div class="sim-stat"><p class="metric-label">Impacto na folha salarial</p><p class="metric-value" id="sim-impact">-</p></div></div>
+              <div class="col-12 col-sm-4"><div class="sim-stat"><p class="metric-label">Ajustes necessários</p><p class="metric-value" id="sim-adjust">-</p></div></div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ====================== ABA 4: CALCULADORA ====================== -->
+    <section class="tab-panel" id="tab-calc" role="tabpanel" aria-labelledby="step-calc" hidden>
+      <header class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">People Analytics</p>
+          <h1 class="hero-title">Calculadora &amp; Análise</h1>
+          <p class="hero-subtitle">Paridade salarial na prática</p>
+        </div>
+        <div class="hero-tagline"><span>Simule, compare<br />e aja com dados<br />de mercado</span></div>
+        <div class="hero-image">
+          <img src="images/calculator.png" alt="Ilustração de análise de dados salariais" />
+        </div>
+      </header>
+
+      <div class="row g-3 mb-3">
+        <div class="col-12 col-lg-5">
+          <article class="panel h-100">
+            <h2 class="panel-title">Calculadora de equidade salarial</h2>
+            <p class="panel-subtitle">Compare um salário com a média do mercado</p>
+            <form id="calc-form" class="row g-3" novalidate>
+              <div class="col-12">
+                <label class="form-label" for="c-salario">Salário atual (R$)</label>
+                <input type="number" class="form-control" id="c-salario" min="1000" step="100" value="8000" required />
+                <div class="invalid-feedback">Informe um salário de pelo menos R$ 1.000.</div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <label class="form-label" for="c-senioridade">Senioridade</label>
+                <select class="form-select" id="c-senioridade"></select>
+              </div>
+              <div class="col-12 col-sm-6">
+                <label class="form-label" for="c-area">Área</label>
+                <select class="form-select" id="c-area"></select>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="c-horas">Horas semanais</label>
+                <input type="number" class="form-control" id="c-horas" min="10" max="60" value="40" required />
+                <div class="invalid-feedback">Informe entre 10 e 60 horas.</div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-navy w-100">Calcular Paridade e Impacto</button>
+              </div>
+            </form>
+          </article>
+        </div>
+        <div class="col-12 col-lg-7">
+          <article class="panel h-100">
+            <h2 class="panel-title">Resultado</h2>
+            <p class="panel-subtitle" id="calc-context">Preencha os campos e clique em calcular.</p>
+            <div class="row g-3" id="calc-results" aria-live="polite">
+              <div class="col-12 col-md-6">
+                <div class="metric metric-peach flex-column align-items-start">
+                  <p class="metric-label">Ajuste recomendado (mensal)</p>
+                  <p class="metric-value" id="r-ajuste">-</p>
+                  <p class="metric-note" id="r-ajuste-note">Para atingir a paridade com a média masculina</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="metric metric-sage flex-column align-items-start">
+                  <p class="metric-label">Gap vs. média do mercado</p>
+                  <p class="metric-value" id="r-gap">-</p>
+                  <p class="metric-note" id="r-gap-note">Comparado à média geral do cargo</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="compare">
+                  <div class="compare-row"><span>Seu salário (40h)</span><div class="bar"><i id="b-user" style="background:var(--peach-deep)"></i></div><strong id="v-user">-</strong></div>
+                  <div class="compare-row"><span>Média mulheres</span><div class="bar"><i id="b-women" style="background:var(--sage)"></i></div><strong id="v-women">-</strong></div>
+                  <div class="compare-row"><span>Média mercado</span><div class="bar"><i id="b-market" style="background:#7FA0BC"></i></div><strong id="v-market">-</strong></div>
+                  <div class="compare-row"><span>Média homens</span><div class="bar"><i id="b-men" style="background:var(--navy)"></i></div><strong id="v-men">-</strong></div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12 col-xl-5">
+          <article class="terminal h-100">
+            <div class="terminal-bar">
+              <span class="dot" style="background:#F8C2A8"></span><span class="dot" style="background:#A8C4A4"></span><span class="dot" style="background:#7FA0BC"></span>
+              <span class="terminal-title">market-scraper — conexão API</span>
+            </div>
+            <div class="terminal-status">
+              <span class="badge-status" id="t-status">Aguardando</span>
+              <span id="t-meta">Nenhuma requisição ainda</span>
+            </div>
+            <pre class="terminal-body" id="t-log" aria-live="polite"></pre>
+            <div class="terminal-actions">
+              <button type="button" class="btn btn-sage btn-sm" id="t-run">Executar POST /api/scrape-market-data</button>
+              <label class="form-check form-switch m-0 small">
+                <input class="form-check-input" type="checkbox" id="t-live" />
+                <span class="form-check-label">Tempo real (30s)</span>
+              </label>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-xl-7">
+          <article class="panel h-100">
+            <div class="d-flex flex-wrap justify-content-between align-items-end gap-2 mb-3">
+              <div>
+                <h2 class="panel-title">Dados raspados do mercado</h2>
+                <p class="panel-subtitle mb-0" id="tbl-caption">Clique no cabeçalho para ordenar</p>
+              </div>
+              <div class="d-flex gap-2">
+                <input type="search" class="form-control form-control-sm" id="tbl-search" placeholder="Buscar cargo..." aria-label="Buscar cargo" />
+                <select class="form-select form-select-sm" id="tbl-area" aria-label="Filtrar por área"></select>
+              </div>
+            </div>
+            <div class="table-responsive">
+              <table class="table table-hover align-middle data-table mb-0">
+                <thead>
+                  <tr>
+                    <th scope="col"><button type="button" data-sort="cargo">Cargo</button></th>
+                    <th scope="col" class="text-end"><button type="button" data-sort="homens">Média homens</button></th>
+                    <th scope="col" class="text-end"><button type="button" data-sort="mulheres">Média mulheres</button></th>
+                    <th scope="col" class="text-end"><button type="button" data-sort="gap">Gap %</button></th>
+                  </tr>
+                </thead>
+                <tbody id="tbl-body"></tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== NAVEGAÇÃO ====================== -->
+    <nav class="steps" role="tablist" aria-label="Seções do dashboard">
+      <button type="button" class="step" role="tab" id="step-studies" data-tab="tab-studies" aria-controls="tab-studies"><span class="step-num">1</span><span class="step-label">Trajetória nos Estudos</span></button>
+      <span class="step-line" aria-hidden="true"></span>
+      <button type="button" class="step" role="tab" id="step-market" data-tab="tab-market" aria-controls="tab-market"><span class="step-num">2</span><span class="step-label">Mercado de Trabalho</span></button>
+      <span class="step-line" aria-hidden="true"></span>
+      <button type="button" class="step" role="tab" id="step-equity" data-tab="tab-equity" aria-controls="tab-equity"><span class="step-num">3</span><span class="step-label">Equidade Salarial</span></button>
+      <span class="step-line" aria-hidden="true"></span>
+      <button type="button" class="step" role="tab" id="step-calc" data-tab="tab-calc" aria-controls="tab-calc"><span class="step-num">4</span><span class="step-label">Calculadora &amp; Análise</span></button>
+    </nav>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

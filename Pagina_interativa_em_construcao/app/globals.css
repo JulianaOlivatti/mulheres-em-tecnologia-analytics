@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-dm-serif), Georgia, serif;
+
+  --color-navy: #123b5d;
+  --color-navy-soft: #e3ebf2;
+  --color-sage: #a8c4a4;
+  --color-sage-soft: #e6eee3;
+  --color-sage-deep: #4f7a4a;
+  --color-peach: #f8c2a8;
+  --color-peach-soft: #fde9df;
+  --color-peach-deep: #c8613a;
+  --color-cream: #f7f4ed;
+  --color-slate: #58636a;
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+}
+
+:root {
+  color-scheme: light;
+  --radius: 0.75rem;
+  --background: #f7f4ed;
+  --foreground: #123b5d;
+  --card: #ffffff;
+  --card-foreground: #123b5d;
+  --popover: #ffffff;
+  --popover-foreground: #123b5d;
+  --primary: #123b5d;
+  --primary-foreground: #ffffff;
+  --secondary: #e6eee3;
+  --secondary-foreground: #123b5d;
+  --muted: #efebe2;
+  --muted-foreground: #66727a;
+  --accent: #fde9df;
+  --accent-foreground: #123b5d;
+  --destructive: #c8613a;
+  --border: #e2ded4;
+  --input: #d9d4c8;
+  --ring: #123b5d;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
