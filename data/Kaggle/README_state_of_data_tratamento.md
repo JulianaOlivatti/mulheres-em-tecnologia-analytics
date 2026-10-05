@@ -36,3 +36,4 @@ O campo de salário é categórico no dado original. Qualquer média baseada em 
 
 ## Fonte
 Data Hackers — State of Data Brazil, datasets públicos disponibilizados no Kaggle.
+https://www.kaggle.com/datahackers
