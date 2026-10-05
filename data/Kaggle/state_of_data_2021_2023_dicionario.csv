@@ -1,0 +1,28 @@
+﻿campo,descricao,tratamento
+ano,Ano da edição da pesquisa,Padronizado
+id_original,Identificador existente no arquivo de origem,Original
+idade,Idade informada,Original
+faixa_idade,Faixa de idade,Original
+genero,Gênero; rótulos preservados,Padronizado apenas em espaços
+cor_raca_etnia,Cor/raça/etnia,Disponível em 2022 e 2023; ausente em 2021
+pcd,Indicador PCD,Disponível em 2022 e 2023; ausente em 2021
+estado_onde_mora,Estado informado,Original
+uf_onde_mora,UF informada,Original
+regiao,Região de residência,Centro-oeste padronizado para Centro-Oeste
+nivel_ensino,Nível de ensino,Original
+area_formacao,Área de formação,Original
+situacao_trabalho,Situação atual de trabalho,Original
+setor,Setor da empresa,Original
+eh_gestor,Resposta ao campo Gestor?,Original
+cargo_gestor,Cargo como gestor,Original
+cargo,Cargo atual,Original
+nivel,Nível profissional,Júnior→Junior; Sênior→Senior
+faixa_salarial_original,Faixa salarial mensal,Original; pequena diferença textual 2021 corrigida apenas no cálculo
+salario_ponto_medio_estimado,Ponto médio da faixa salarial,Derivado; faixa aberta > R$40.001 permanece nula
+experiencia_area_dados,Tempo de experiência em dados,Original
+experiencia_ti_antes_dados,Experiência prévia em TI/Eng. Software,Original
+modelo_trabalho_original,Forma de trabalho informada,Original
+modelo_trabalho_padronizado,Forma de trabalho em 3 categorias,Remoto / Hibrido / Presencial
+fonte,Nome da pesquisa,Adicionado
+origem,Origem dos arquivos,Adicionado
+arquivo_origem,Arquivo bruto correspondente,Adicionado
