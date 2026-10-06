@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCorp Brasil — People Analytics & DE&I | Relatório Executivo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <!-- 1. Barra de Progresso Superior de Rolagem -->
+  <div class="scroll-progress-track">
+    <div class="scroll-progress-indicator" id="scrollProgress"></div>
+  </div>
+
+  <!-- 2. Navegação Lateral Flutuante por Marcadores -->
+  <aside class="floating-scroll-dots" aria-label="Navegação rápida por seções">
+    <a href="#parte1" class="scroll-dot active" data-target="parte1" title="01 · Apresentação">
+      <span class="dot-label">01 Apresentação</span>
+      <span class="dot-circle"></span>
+    </a>
+    <a href="#parte2" class="scroll-dot" data-target="parte2" title="02 · Diagnóstico">
+      <span class="dot-label">02 Diagnóstico</span>
+      <span class="dot-circle"></span>
+    </a>
+    <a href="#parte3" class="scroll-dot" data-target="parte3" title="03 · Dashboard">
+      <span class="dot-label">03 Dashboard</span>
+      <span class="dot-circle"></span>
+    </a>
+    <a href="#parte4" class="scroll-dot" data-target="parte4" title="04 · Em breve">
+      <span class="dot-label">04 Em breve</span>
+      <span class="dot-circle"></span>
+    </a>
+  </aside>
+
+  <!-- 3. Cabeçalho Minimalista 100% Transparente no Topo (Fica Translúcido ao Rolar) -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <a href="#parte1" class="brand-wrapper">
+        <div class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">TechCorp Brasil</span>
+          <span class="brand-tagline">People Analytics &amp; DE&amp;I</span>
+        </div>
+      </a>
+
+      <!-- Âncoras de Navegação -->
+      <nav class="site-nav" aria-label="Navegação das Seções">
+        <a href="#parte1" class="nav-link active">
+          <span class="nav-link-num">01</span>
+          <span>Apresentação</span>
+        </a>
+        <a href="#parte2" class="nav-link">
+          <span class="nav-link-num">02</span>
+          <span>Diagnóstico</span>
+        </a>
+        <a href="#parte3" class="nav-link">
+          <span class="nav-link-num">03</span>
+          <span>Dashboard</span>
+        </a>
+        <a href="#parte4" class="nav-link">
+          <span class="nav-link-num">04</span>
+          <span>Em breve</span>
+        </a>
+      </nav>
+
+      <a href="#parte3" class="header-cta-btn">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+          <line x1="3" y1="9" x2="21" y2="9"></line>
+          <line x1="9" y1="21" x2="9" y2="9"></line>
+        </svg>
+        <span>Ver Dashboard</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ======================================================== -->
+  <!-- SISTEMA DE CARTÕES SOBREPOSTOS (CARDS STACK WRAPPER)      -->
+  <!-- ======================================================== -->
+  <main class="cards-stack-wrapper">
+
+    <!-- ======================================================== -->
+    <!-- CARTÃO 01: FOTO 1 (Mulher no Data Center)                 -->
+    <!-- ======================================================== -->
+    <section class="card-stack-section card-parte1" id="parte1">
+      <div class="section-overlay-subtle"></div>
+
+      <div class="section-inner-container">
+
+        <!-- Topo Centralizado: TechCorp Brasil -->
+        <header class="section-hero-header scroll-reveal">
+          <div class="section-pill-tag">
+            <span>PARTE 01 &bull; APRESENTAÇÃO INSTITUCIONAL</span>
+          </div>
+          <h1 class="section-hero-title">TechCorp Brasil</h1>
+          <p class="section-hero-subtitle">Líder em serviço de nuvem e engenharia de software</p>
+          <div class="section-gold-divider"></div>
+          
+          <!-- Texto em Destaque em Linha Única -->
+          <div class="hero-highlight-wrapper scroll-reveal stagger-1">
+            <p class="hero-highlight-text">
+              Representatividade feminina nos cursos de graduação em tecnologia e mercado tech no Brasil.
+            </p>
+          </div>
+        </header>
+
+        <!-- Os 3 Tópicos transferidos sem blocos (com animação escalonada) -->
+        <div class="topics-pure-grid">
+
+          <!-- Tópico 1 -->
+          <div class="topic-pure-item scroll-reveal stagger-1">
+            <span class="topic-eyebrow">Tópico 01</span>
+            <h2 class="topic-title">Onde reside o gargalo?</h2>
+            <p class="topic-description">
+              Destrincha os desafios e barreiras enfrentados pelas mulheres desde o ingresso na universidade até a conclusão do curso, identificando os fatores acadêmicos que afetam a permanência e a formação de novas profissionais.
+            </p>
+          </div>
+
+          <!-- Tópico 2 -->
+          <div class="topic-pure-item scroll-reveal stagger-2">
+            <span class="topic-eyebrow">Tópico 02</span>
+            <h2 class="topic-title">Teto de Vidro &mdash; Barreiras invisíveis</h2>
+            <p class="topic-description">
+              Análise sobre a progressão de carreira no ecossistema tech corporativo e as barreiras invisíveis que dificultam a ascensão de mulheres a cargos de liderança, diretoria e C-Level, investigando como os vieses estruturais retêm profissionais qualificadas na base operacional.
+            </p>
+          </div>
+
+          <!-- Tópico 3 -->
+          <div class="topic-pure-item scroll-reveal stagger-3">
+            <span class="topic-eyebrow">Tópico 03</span>
+            <h2 class="topic-title">Gender Pay Gap</h2>
+            <p class="topic-description">
+              Exame da disparidade salarial entre homens e mulheres no setor de tecnologia, destrinchando como a diferença de remuneração se manifesta no mercado e a persistência do gap em níveis idênticos de senioridade e experiência, apontando a urgência de equiparação.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Indicador sutil de rolagem -->
+        <div class="hero-footer-hint scroll-reveal stagger-4">
+          <span>Role para baixo &bull; O Cartão 02 se sobrepõe a este</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- CARTÃO 02: FOTO 2 (Mulher no Escritório com Óculos)       -->
+    <!-- SOBREPÕE O CARTÃO 01 COM TOPO ARREDONDADO & SOMBRA        -->
+    <!-- ======================================================== -->
+    <section class="card-stack-section card-parte2" id="parte2">
+      <div class="card-handle-bar">
+        <div class="card-handle-pill"></div>
+      </div>
+      <div class="section-overlay-subtle"></div>
+
+      <div class="section-inner-container">
+
+        <!-- Cabeçalho Editorial Parte 02 -->
+        <header class="section-hero-header scroll-reveal">
+          <div class="section-pill-tag">
+            <span>PARTE 02 &bull; DIAGNÓSTICO ESTRUTURAL &amp; DESAFIOS</span>
+          </div>
+          <h2 class="section-hero-title">Representatividade Feminina em Tecnologia</h2>
+          <p class="section-hero-subtitle">
+            Uma investigação aprofundada sobre a retenção acadêmica, os obstáculos silenciosos de ascensão na carreira e as evidências empíricas da desigualdade salarial no Brasil.
+          </p>
+          <div class="section-gold-divider"></div>
+        </header>
+
+        <!-- 3 Pilares Analíticos Aprofundados Estruturados em Blocos -->
+        <div class="diagnostico-pillars-flow">
+
+          <!-- Pilar 1: Onde reside o gargalo? (Em Bloco) -->
+          <div class="pillar-card-block scroll-reveal-scale stagger-1">
+            <div class="pillar-header-row">
+              <span class="pillar-num-badge">01</span>
+              <h3 class="pillar-main-title">Onde reside o gargalo?</h3>
+            </div>
+            <div class="pillar-highlight-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Funil Furado &bull; 68% de Evasão Feminina</span>
+            </div>
+            <p class="pillar-lead-text">
+              O verdadeiro estrangulamento da representatividade feminina não está na falta de interesse, mas na incapacidade do ecossistema acadêmico de acolher e reter estudantes até a graduação.
+            </p>
+            <ul class="pillar-points-list">
+              <li class="pillar-point-item">
+                <span class="point-gold-bullet"></span>
+                <div><span class="point-bold-label">Ingresso Inicial:</span> Mulheres compõem cerca de <strong>17,0%</strong> dos calouros em cursos de TI no Brasil (16,4% em Ciência da Computação).</div>
+              </li>
+              <li class="pillar-point-item">
+                <span class="point-gold-bullet"></span>
+                <div><span class="point-bold-label">Evasão Crítica:</span> A taxa de abandono feminina alcança estarrecedores <strong>68,0%</strong>, quase 10 pontos percentuais acima da média masculina (58,3%).</div>
+              </li>
+              <li class="pillar-point-item">
+                <span class="point-gold-bullet"></span>
+                <div><span class="point-bold-label">Conclusão:</span> Apenas <strong>13,9%</strong> dos profissionais que colam grau são mulheres, secando a entrada de talentos no mercado.</div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pilar 2: Teto de Vidro (Em Bloco) -->
+          <div class="pillar-card-block scroll-reveal-scale stagger-2">
+            <div class="pillar-header-row">
+              <span class="pillar-num-badge">02</span>
+              <h3 class="pillar-main-title">Teto de Vidro</h3>
+            </div>
+            <div class="pillar-highlight-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 20V10"></path><path d="M12 20V4"></path><path d="M6 20v-6"></path></svg>
+              <span>29% no Júnior &rarr; 6,3% na Diretoria</span>
+            </div>
+            <p class="pillar-lead-text">
+              A retenção sistemática na base operacional da pirâmide corporativa revela a existência de barreiras invisíveis que bloqueiam a promoção de mulheres qualificadas.
+            </p>
+            <ul class="pillar-points-list">
+              <li class="pillar-point-item">
+                <span class="point-gold-bullet"></span>
+                <div><span class="point-bold-label">Base Concentrada:</span> Quase metade (47,4%) de todas as profissionais tech está retida no nível Júnior, onde a presença feminina é de <strong>27,6% a 29,0%</strong>.</div>
+              </li>
+              <li class="pillar-point-item">
+                <span class="point-gold-bullet"></span>
+                <div><span class="point-bold-label">Queda na Senioridade:</span> A representatividade despenca para <strong>22,1%</strong> no Pleno, <strong>13,1%</strong> no Sênior e atinge críticos <strong>6,3%</strong> no C-Level.</div>
+              </li>
+              <li class="pillar-point-item">
+                <span class="point-gold-bullet"></span>
+                <div><span class="point-bold-label">Tempo Equivalente:</span> Homens e mulheres têm <em>tempo de experiência idêntico</em> em cada nível, desmistificando o mito de falta de maturidade técnica.</div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pilar 3: Gender Pay Gap (Em Bloco) -->
+          <div class="pillar-card-block scroll-reveal-scale stagger-3">
+            <div class="pillar-header-row">
+              <span class="pillar-num-badge">03</span>
+              <h3 class="pillar-main-title">Gender Pay Gap</h3>
+            </div>
+            <div class="pillar-highlight-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+              <span>Gap de 40,9% &bull; p &lt; 0,001 (Teste t)</span>
+            </div>
+            <p class="pillar-lead-text">
+              A disparidade na remuneração refuta qualquer alegação de acaso e impõe a urgência de uma política ativa de equiparação salarial (Zero Gap).
+            </p>
+            <ul class="pillar-points-list">
+              <li class="pillar-point-item">
+                <span class="point-gold-bullet"></span>
+                <div><span class="point-bold-label">Média Global Tech:</span> Mulheres ganham <strong>40,9% a menos</strong> que homens (remuneração média de R$ 8.013 versus R$ 13.550).</div>
+              </li>
+              <li class="pillar-point-item">
+                <span class="point-gold-bullet"></span>
+                <div><span class="point-bold-label">Diferença em Mesmos Cargos:</span> O gap inicia em <strong>9,6%</strong> no nível Júnior, cresce para <strong>16,4%</strong> no Sênior e bate <strong>25,6% a 31%</strong> na Diretoria.</div>
+              </li>
+              <li class="pillar-point-item">
+                <span class="point-gold-bullet"></span>
+                <div><span class="point-bold-label">Validação Estatística:</span> Teste t de Welch com <em>t = 20,63 e p &lt; 0,001</em> descarta 100% qualquer fator fortuito ou casual.</div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Indicador sutil de rolagem -->
+        <div class="hero-footer-hint scroll-reveal stagger-4">
+          <span>Role para baixo &bull; O Cartão 03 (Dashboard) se sobrepõe a este</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- CARTÃO 03: FOTO 3 (Mulher ao Telefone no Laptop)          -->
+    <!-- SOBREPÕE O CARTÃO 02 COM TOPO ARREDONDADO & SOMBRA        -->
+    <!-- ======================================================== -->
+    <section class="card-stack-section card-parte3" id="parte3">
+      <div class="card-handle-bar">
+        <div class="card-handle-pill"></div>
+      </div>
+      <div class="section-overlay-subtle"></div>
+
+      <div class="section-inner-container">
+
+        <!-- Cabeçalho Editorial Parte 03 -->
+        <header class="section-hero-header scroll-reveal">
+          <div class="section-pill-tag">
+            <span>PARTE 03 &bull; PAINEL EXECUTIVO INTERATIVO</span>
+          </div>
+          <h2 class="section-hero-title">Dashboard Power BI Service</h2>
+          <p class="section-hero-subtitle">
+            Monitore em tempo real os indicadores de formação, pipeline de carreira e simulação de equiparação salarial.
+          </p>
+          <div class="section-gold-divider"></div>
+        </header>
+
+        <!-- KPIs Flutuantes Transparentes sobre a Foto -->
+        <div class="kpi-floating-row">
+          <div class="kpi-floating-stat scroll-reveal-scale stagger-1">
+            <div class="kpi-big-num gold">17,0%</div>
+            <div class="kpi-stat-label">Ingressantes em TI</div>
+            <div class="kpi-stat-sub">Censo Superior INEP</div>
+          </div>
+          <div class="kpi-floating-stat scroll-reveal-scale stagger-2">
+            <div class="kpi-big-num terracotta">13,9%</div>
+            <div class="kpi-stat-label">Formandas Concluintes</div>
+            <div class="kpi-stat-sub">Evasão est. de 68,0%</div>
+          </div>
+          <div class="kpi-floating-stat scroll-reveal-scale stagger-3">
+            <div class="kpi-big-num white">6,3%</div>
+            <div class="kpi-stat-label">Mulheres na Diretoria</div>
+            <div class="kpi-stat-sub">Queda de 29% no Júnior</div>
+          </div>
+          <div class="kpi-floating-stat scroll-reveal-scale stagger-4">
+            <div class="kpi-big-num gold">40,9%</div>
+            <div class="kpi-stat-label">Gap Salarial Médio</div>
+            <div class="kpi-stat-sub">p &lt; 0,001 (Teste t de Welch)</div>
+          </div>
+        </div>
+
+        <!-- Container do Dashboard em Vidro Moderno -->
+        <div class="dashboard-glass-container scroll-reveal-scale stagger-2">
+          
+          <!-- Barra de Controles Translúcida -->
+          <div class="dashboard-toolbar-glass">
+            <div class="glass-tabs-nav">
+              <button class="glass-tab-btn active" id="tabPowerBi" onclick="switchPreviewTab('pbi')">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                <span>Power BI Service</span>
+              </button>
+              <button class="glass-tab-btn" id="tabOffline" onclick="switchPreviewTab('offline')">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span>Indicadores Integrados (Offline)</span>
+              </button>
+            </div>
+
+            <div style="display: flex; gap: 8px;">
+              <button class="glass-action-btn" onclick="openModal()">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                <span>Conectar Relatório</span>
+              </button>
+              <button class="glass-action-btn" onclick="alert('Modo Tela Cheia')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg>
+                <span>Tela Cheia</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Área Central de Visualização -->
+          <div class="dashboard-content-area" id="pbiView">
+            <div class="pbi-service-replica">
+              <div class="pbi-logo-circle">
+                <svg width="34" height="34" viewBox="0 0 48 48" fill="none">
+                  <rect x="6" y="22" width="8" height="20" rx="2" fill="#c25e38"/>
+                  <rect x="18" y="14" width="8" height="28" rx="2" fill="#f59e0b"/>
+                  <rect x="30" y="6" width="8" height="36" rx="2" fill="#ffffff"/>
+                </svg>
+              </div>
+              <h3 class="pbi-hero-title">Painel Executivo Power BI</h3>
+              <p class="pbi-hero-desc">
+                Visualize em tempo real o relatório <strong>dash_atualizado_05_10.pbix</strong> integrado à nuvem, com filtros dinâmicos de senioridade, cursos universitários e simulação Zero Gap.
+              </p>
+              <button class="pbi-connect-button" onclick="openModal()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                <span>Inserir Link do Power BI Publicado</span>
+              </button>
+              <div class="pbi-safe-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                <span>Conexão Segura &bull; Suporta publicação pública ou corporativa Microsoft Entra ID</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visão Offline Alternativa -->
+          <div class="dashboard-content-area" id="offlineView" style="display: none;">
+            <div style="max-width: 900px; width: 100%; text-align: left;">
+              <h4 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 16px; color: #f59e0b; text-align: center;">Módulos Analíticos Integrados</h4>
+              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+                <div style="background: rgba(255,255,255,0.06); padding: 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.12);">
+                  <strong style="color: #fed7aa;">1. Funil Universitário (INEP):</strong>
+                  <p style="font-size: 0.86rem; color: #ddd; margin-top: 6px;">Taxas de ingresso (17,8% em ADS, 15,2% em CC) e evasão calculada em 68%.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.06); padding: 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.12);">
+                  <strong style="color: #fed7aa;">2. Pirâmide de Senioridade:</strong>
+                  <p style="font-size: 0.86rem; color: #ddd; margin-top: 6px;">Retração contínua: 29% Jr &rarr; 22,1% Pl &rarr; 13,1% Sr &rarr; 6,3% Diretoria.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.06); padding: 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.12);">
+                  <strong style="color: #fed7aa;">3. Matriz Salarial Comparada:</strong>
+                  <p style="font-size: 0.86rem; color: #ddd; margin-top: 6px;">Remuneração média de R$ 8.013 (F) contra R$ 13.550 (M); gap de 9,6% a 31%.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.06); padding: 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.12);">
+                  <strong style="color: #fed7aa;">4. Simulador Zero Gap:</strong>
+                  <p style="font-size: 0.86rem; color: #ddd; margin-top: 6px;">Cálculo do orçamento corporativo necessário para equiparação salarial imediata.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Rodapé -->
+        <div class="hero-footer-hint scroll-reveal stagger-3">
+          <span>Role para baixo &bull; O Cartão 04 (Planejamento) se sobrepõe a este</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- CARTÃO 04: MÓDULO FUTURO / PLANEJAMENTO ESTRATÉGICO       -->
+    <!-- SOBREPÕE O CARTÃO 03 COM TOPO ARREDONDADO & SOMBRA        -->
+    <!-- ======================================================== -->
+    <section class="card-stack-section card-parte4" id="parte4">
+      <div class="card-handle-bar">
+        <div class="card-handle-pill"></div>
+      </div>
+
+      <div class="section-inner-container">
+
+        <!-- Cabeçalho Editorial Parte 04 -->
+        <header class="section-hero-header scroll-reveal">
+          <div class="section-pill-tag">
+            <span>PARTE 04 &bull; MÓDULO FUTURO &bull; PLANEJAMENTO ESTRATÉGICO</span>
+          </div>
+          <h2 class="section-hero-title">Expansão Analítica TechCorp</h2>
+          <p class="section-hero-subtitle">
+            Próximos passos e metas corporativas de atração, aceleração de carreira e retenção feminina até 2028.
+          </p>
+          <div class="section-gold-divider"></div>
+        </header>
+
+        <!-- Card Central de Módulo Futuro -->
+        <div class="card-parte4-inner scroll-reveal-scale stagger-1">
+          <div class="future-module-icon">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 14 14"></polyline>
+            </svg>
+          </div>
+          <h3 class="future-module-title">Esta seção será preenchida em seguida.</h3>
+          <p class="future-module-desc">
+            Espaço reservado para as próximas etapas analíticas da iniciativa de People Analytics da <strong>TechCorp Brasil</strong>, incluindo simuladores de recrutamento afirmativo, trilhas de mentoria corporativa e relatórios trimestrais de acompanhamento da meta ESG de 40%.
+          </p>
+          <div style="display: inline-flex; gap: 10px;">
+            <button class="pbi-connect-button" style="padding: 9px 22px; font-size: 0.85rem;" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+              <span>Voltar ao Início do Baralho</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Rodapé Final -->
+        <div class="hero-footer-hint scroll-reveal stagger-2">
+          <span>&copy; 2026 TechCorp Brasil &bull; People Analytics &amp; DE&amp;I &bull; Governança e Transparência ESG</span>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal Power BI -->
+  <div class="modal-backdrop" id="modalConfig">
+    <div class="modal-card">
+      <h3>Conectar Relatório Power BI</h3>
+      <p style="font-size: 0.88rem; color: #aaa;">Insira a URL de publicação na web gerada pelo Power BI Service (Arquivo &gt; Publicar na Web):</p>
+      <input type="text" id="pbiUrlInput" placeholder="https://app.powerbi.com/view?r=...">
+      <div style="display: flex; justify-content: flex-end; gap: 10px;">
+        <button style="background: transparent; border: 1px solid rgba(255,255,255,0.3);" onclick="closeModal()">Cancelar</button>
+        <button onclick="savePbiUrl()">Salvar e Carregar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
