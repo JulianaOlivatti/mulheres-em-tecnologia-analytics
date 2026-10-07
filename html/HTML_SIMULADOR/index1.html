@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mulheres em Tech — Paridade & Equidade Salarial</title>
+  
+  <!-- Fontes Oficiais do Design -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f7f4ee;
+      --ink: #123f50;
+      --navy: #073b4c;
+      --sky: #67c7ed;
+      --peach: #f4a482;
+      --sage: #b8cdb5;
+      --line: rgba(7, 59, 76, 0.15);
+      --white: #ffffff;
+      --muted: #65757a;
+      --green-text: #2a7a4c;
+      --red-text: #d9534f;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'DM Sans', system-ui, sans-serif;
+      overflow-x: hidden;
+    }
+
+    .serif { font-family: 'Playfair Display', serif; }
+
+    /* Navegação Estilo Pílula Flutuante */
+    .nav {
+      position: fixed;
+      z-index: 30;
+      top: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: min(1120px, 92vw);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px 12px 20px;
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      background: rgba(247, 244, 238, 0.82);
+      backdrop-filter: blur(16px);
+      border-radius: 999px;
+      box-shadow: 0 10px 40px rgba(7, 59, 76, 0.08);
+    }
+    .brand { font-weight: 800; letter-spacing: -0.04em; color: var(--navy); text-decoration: none; }
+    .links { display: flex; gap: 20px; font-size: 14px; }
+    .links a { color: var(--ink); text-decoration: none; font-weight: 500; transition: color .2s; }
+    .links a:hover { color: var(--peach); }
+    .navcta { padding: 10px 18px; border-radius: 999px; background: var(--navy); color: #fff !important; text-decoration: none; font-weight: 700; font-size: 13px; }
+
+    /* Hero Section */
+    .hero {
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: grid;
+      align-items: center;
+      position: relative;
+      padding: 120px 7vw 70px;
+      overflow: hidden;
+      background: var(--bg);
+    }
+    .orb { position: absolute; border-radius: 50%; filter: blur(2px); opacity: 0.85; }
+    .o1 { width: 45vw; height: 45vw; background: #a9dded; right: -12vw; top: -12vw; }
+    .o2 { width: 28vw; height: 28vw; background: #f6b69b; right: 12vw; bottom: -13vw; }
+    
+    .heroInner { width: min(1180px, 100%); margin: auto; position: relative; z-index: 2; }
+    .kicker { font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 700; margin-bottom: 22px; color: var(--muted); }
+    
+    .hero h1 {
+      font-size: clamp(44px, 6.5vw, 90px);
+      line-height: 0.95;
+      letter-spacing: -0.05em;
+      margin: 0;
+      max-width: 1050px;
+      color: var(--navy);
+    }
+    .hero h1 em { font-style: italic; font-weight: 600; color: #e76f51; }
+    .hero p { font-size: clamp(17px, 1.8vw, 22px); max-width: 680px; margin: 24px 0; color: #405b64; line-height: 1.5; }
+
+    /* Seções com Estilo de Cartões Empilhados */
+    .story-card {
+      position: relative;
+      margin-top: -34px;
+      border-radius: 42px 42px 0 0;
+      box-shadow: 0 -18px 55px rgba(7,59,76,0.12);
+      overflow: hidden;
+      isolation: isolate;
+      padding: 90px 7vw;
+      background: #ffffff;
+      scroll-margin-top: 40px;
+    }
+    #calculadora {
+      margin-top: 0;
+    }
+    .story-card::before {
+      content: "";
+      position: absolute;
+      top: 14px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 58px;
+      height: 5px;
+      border-radius: 999px;
+      background: rgba(7,59,76,0.18);
+      z-index: 9;
+    }
+    .story-card.dark::before { background: rgba(255, 255, 255, 0.35); }
+
+    .stack-kicker {
+      position: absolute;
+      top: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 10px;
+      letter-spacing: 0.17em;
+      font-weight: 800;
+      text-transform: uppercase;
+      opacity: 0.6;
+      white-space: nowrap;
+    }
+
+    .dark { background: var(--navy); color: #fff; }
+    .dark .lead { color: #bed0d5; }
+    .dark .kicker { color: #9ed7e9; }
+
+    .inner { width: min(1000px, 100%); margin: auto; }
+    .story-card h2 { font-size: clamp(32px, 4.5vw, 62px); line-height: 0.98; letter-spacing: -0.04em; margin: 0 0 16px; }
+    .lead { font-size: 17px; max-width: 720px; color: #52666c; line-height: 1.6; margin-bottom: 35px; }
+
+    /* Formulário */
+    .form-group {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .form-group label {
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--navy);
+    }
+
+    .form-control, select, input[type="number"] {
+      width: 100%;
+      padding: 14px 18px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fbf9f5;
+      font-family: inherit;
+      font-size: 15px;
+      color: var(--ink);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .form-control:focus, select:focus, input:focus {
+      border-color: var(--sky);
+      box-shadow: 0 0 0 3px rgba(103, 199, 237, 0.25);
+    }
+
+    .btn-submit {
+      width: 100%;
+      border: 0;
+      background: var(--navy);
+      color: #fff;
+      padding: 16px;
+      border-radius: 16px;
+      font-weight: 700;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .btn-submit:hover { background: #0b4a5e; transform: translateY(-1px); }
+
+    /* Resultados da Calculadora */
+    .diagnosis-block {
+      margin-top: 30px;
+      border-top: 1px solid var(--line);
+      padding-top: 25px;
+    }
+    .diagnosis-title { font-weight: 700; font-size: 18px; margin-bottom: 4px; color: var(--navy); }
+    .diagnosis-sub { font-size: 14px; color: var(--muted); margin-bottom: 20px; }
+
+    .metric-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 20px;
+      background: #f8f6f0;
+      border-radius: 14px;
+      margin-bottom: 12px;
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .val-green { color: var(--green-text); font-weight: 800; font-size: 17px; }
+    .val-red { color: var(--red-text); font-weight: 800; font-size: 17px; }
+
+    /* Barras de Comparação Salarial */
+    .bar-group { margin-top: 24px; }
+    .bar-item { margin-bottom: 16px; }
+    .bar-label { display: flex; justify-content: space-between; font-size: 14px; font-weight: 700; margin-bottom: 6px; color: var(--navy); }
+    .bar-track { height: 12px; background: #eae6dd; border-radius: 999px; overflow: hidden; }
+    
+    /* Cores fiéis às barras da imagem de referência */
+    .bar-fill-user { height: 100%; background: #186ade; border-radius: 999px; transition: width 0.4s; }
+    .bar-fill-women { height: 100%; background: #00d4ff; border-radius: 999px; transition: width 0.4s; }
+    .bar-fill-market { height: 100%; background: #60727a; border-radius: 999px; transition: width 0.4s; }
+    .bar-fill-men { height: 100%; background: #1b242c; border-radius: 999px; transition: width 0.4s; }
+
+    /* Info Box e Slider do Simulador */
+    .info-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      padding: 24px;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #d2e0e4;
+      margin-bottom: 30px;
+    }
+    .info-card ul { margin: 12px 0 0; padding-left: 20px; }
+    .info-card li { margin-bottom: 8px; }
+
+    .slider-box {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 24px;
+      margin-bottom: 30px;
+    }
+    .slider-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    .slider-header span { font-weight: 700; }
+    .badge-pct { background: #0066ff; color: #fff; padding: 6px 14px; border-radius: 10px; font-weight: 800; font-size: 15px; }
+
+    input[type=range] { width: 100%; accent-color: #0066ff; cursor: pointer; }
+    .slider-ticks { display: flex; justify-content: space-between; font-size: 12px; font-weight: 700; opacity: 0.7; margin-top: 8px; }
+
+    /* Cartões de Métricas (Simulador) */
+    .sim-cards { display: flex; flex-direction: column; gap: 16px; }
+    .sim-card-main {
+      background: #ffffff;
+      color: var(--navy);
+      border-radius: 20px;
+      padding: 32px 24px;
+      text-align: center;
+      border-left: 6px solid var(--navy);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+    .sim-card-main .lbl { font-size: 14px; color: var(--muted); font-weight: 600; }
+    .sim-card-main .val { font-size: clamp(36px, 5vw, 52px); font-weight: 800; margin-top: 8px; letter-spacing: -0.03em; }
+
+    .sim-cards-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .sim-card-sub {
+      background: #ffffff;
+      color: var(--navy);
+      border-radius: 20px;
+      padding: 24px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+    .sim-card-sub.c1 { border-left: 6px solid var(--peach); }
+    .sim-card-sub.c2 { border-left: 6px solid var(--sage); }
+    .sim-card-sub .lbl { font-size: 13px; color: var(--muted); font-weight: 600; }
+    .sim-card-sub .val { font-size: clamp(28px, 4vw, 38px); font-weight: 800; margin-top: 6px; }
+
+    footer { padding: 45px 7vw; background: #082f3c; color: #b7c9cf; text-align: center; font-size: 14px; }
+
+    @media(max-width: 768px) {
+      .links { display: none; }
+      .sim-cards-grid { grid-template-columns: 1fr; }
+      .story-card { border-radius: 28px 28px 0 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navegação Flutuante -->
+  <nav class="nav">
+    <a class="brand" href="#inicio">Mulheres em Tech</a>
+    <div class="links">
+      <a href="#calculadora">Calculadora</a>
+      <a href="#simulador">Simulador</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="inicio">
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="heroInner">
+      <div class="kicker">People Analytics · Diagnóstico Salarial</div>
+      <h1 class="serif">Paridade &<br><em>Equidade Salarial.</em></h1>
+      <p>Diagnostique salários em relação ao mercado e simule cenários de investimento para redução do gap em tempo real.</p>
+    </div>
+  </header>
+
+  <!-- 1. CALCULADORA DE PARIDADE SALARIAL -->
+  <section class="story-card" id="calculadora">
+    <div class="inner">
+      <h2 class="serif">Calculadora de Paridade Salarial</h2>
+      <p class="lead">Insira os dados da profissional para diagnosticar a paridade salarial em relação ao mercado.</p>
+
+      <form id="paridadeForm" onsubmit="event.preventDefault(); calcularParidade();">
+        <div class="form-group">
+          <label for="salarioAtual">Salário Atual (R$)</label>
+          <input type="number" id="salarioAtual" class="form-control" value="8000" placeholder="Ex: 8000" required>
+        </div>
+
+        <div class="form-group">
+          <label for="senioridade">Senioridade</label>
+          <select id="senioridade" class="form-control">
+            <option value="estagiario">Estagiário(a)</option>
+            <option value="junior">Júnior</option>
+            <option value="pleno" selected>Pleno</option>
+            <option value="senior">Sênior</option>
+            <option value="lideranca">Liderança / Coordenação</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="areaAtuacao">Área de Atuação</label>
+          <select id="areaAtuacao" class="form-control">
+            <option value="desenvolvimento" selected>Desenvolvimento</option>
+            <option value="dados">Dados & Analytics</option>
+            <option value="design">Product Design / UX</option>
+            <option value="produto">Gestão de Produto</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-submit">Calcular Paridade</button>
+      </form>
+
+      <div class="diagnosis-block">
+        <div class="diagnosis-title">Resultado do Diagnóstico:</div>
+        <div class="diagnosis-sub" id="diagSub">Preencha os dados acima e clique em calcular.</div>
+
+        <div class="metric-row">
+          <span>Ajuste Recomendado:</span>
+          <span id="resAjuste" class="val-green">R$ 0,00</span>
+        </div>
+
+        <div class="metric-row">
+          <span>Gap Salarial Estimado:</span>
+          <span id="resGap" class="val-red">0%</span>
+        </div>
+
+        <!-- Barras de Comparação Exatamente como na Referência 2 -->
+        <div class="bar-group">
+          <div class="bar-item">
+            <div class="bar-label">
+              <span>Seu Salário:</span>
+              <span id="lblSeuSalario">R$ 8.000</span>
+            </div>
+            <div class="bar-track">
+              <div id="barSeuSalario" class="bar-fill-user" style="width: 80%;"></div>
+            </div>
+          </div>
+
+          <div class="bar-item">
+            <div class="bar-label">
+              <span>Média Mulheres:</span>
+              <span id="lblMediaMulheres">R$ 8.100</span>
+            </div>
+            <div class="bar-track">
+              <div id="barMediaMulheres" class="bar-fill-women" style="width: 81%;"></div>
+            </div>
+          </div>
+
+          <div class="bar-item">
+            <div class="bar-label">
+              <span>Média Mercado:</span>
+              <span id="lblMediaMercado">R$ 8.950</span>
+            </div>
+            <div class="bar-track">
+              <div id="barMediaMercado" class="bar-fill-market" style="width: 89.5%;"></div>
+            </div>
+          </div>
+
+          <div class="bar-item">
+            <div class="bar-label">
+              <span>Média Homens:</span>
+              <span id="lblMediaHomens">R$ 9.800</span>
+            </div>
+            <div class="bar-track">
+              <div id="barMediaHomens" class="bar-fill-men" style="width: 98%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SIMULADOR DE EQUIDADE SALARIAL -->
+  <section class="story-card dark" id="simulador">
+    <div class="inner">
+      <h2 class="serif">Simulador de Equidade Salarial</h2>
+      <p class="lead">Cenário de investimento para redução do gap na organização.</p>
+
+      <div class="info-card">
+        A <strong>Meta de Promoção</strong> é uma barra interativa onde você define o percentual de alcance da equiparação salarial que a empresa pretende atingir (ex.: 10%, 20%, 30%).
+        <br><br>
+        Ao ajustar a barra, os cartões recalculam em tempo real:
+        <ul>
+          <li><strong>Acréscimo Mensal Estimado:</strong> O custo adicional direto na folha de pagamento por mês para cobrir o gap salarial na meta selecionada.</li>
+          <li><strong>Aumento Estimado da Folha (%):</strong> O peso relativo desse investimento no orçamento total da empresa.</li>
+          <li><strong>Mulheres Alcançadas pela Equiparação:</strong> A quantidade exata de profissionais femininas beneficiadas.</li>
+        </ul>
+      </div>
+
+      <div class="slider-box">
+        <div class="slider-header">
+          <span>Meta de Promoção / Equiparação:</span>
+          <span id="badgeMeta" class="badge-pct">50%</span>
+        </div>
+        <input type="range" id="rangeMeta" min="0" max="100" value="50" oninput="atualizarSimulador(this.value)">
+        <div class="slider-ticks">
+          <span>0%</span>
+          <span>50%</span>
+          <span>100%</span>
+        </div>
+      </div>
+
+      <div class="sim-cards">
+        <div class="sim-card-main">
+          <div class="lbl">Acréscimo mensal estimado</div>
+          <div id="valAcrescimo" class="val">381,92 Mil</div>
+        </div>
+
+        <div class="sim-cards-grid">
+          <div class="sim-card-sub c1">
+            <div class="lbl">Aumento estimado da folha</div>
+            <div id="valFolha" class="val">1,20%</div>
+          </div>
+
+          <div class="sim-card-sub c2">
+            <div class="lbl">Mulheres alcançadas pela equiparação</div>
+            <div id="valMulheres" class="val">265</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Mulheres em Tech — Diagnóstico & Simuladores de Equidade</p>
+  </footer>
+
+  <!-- Lógica do Cálculo das 4 Médias -->
+  <script>
+    // Tabelas de Média de Mercado (Mulheres, Geral Mercado, Homens)
+    const mediasMercado = {
+      desenvolvimento: {
+        estagiario: { mulheres: 2400, mercado: 2500, homens: 2600 },
+        junior: { mulheres: 4300, mercado: 4600, homens: 4900 },
+        pleno: { mulheres: 8100, mercado: 8950, homens: 9800 },
+        senior: { mulheres: 12000, mercado: 13200, homens: 14400 },
+        lideranca: { mulheres: 15500, mercado: 17000, homens: 18500 }
+      },
+      dados: {
+        estagiario: { mulheres: 2500, mercado: 2600, homens: 2700 },
+        junior: { mulheres: 4500, mercado: 4800, homens: 5100 },
+        pleno: { mulheres: 8300, mercado: 9100, homens: 9900 },
+        senior: { mulheres: 12500, mercado: 13800, homens: 15000 },
+        lideranca: { mulheres: 16000, mercado: 17500, homens: 19000 }
+      },
+      design: {
+        estagiario: { mulheres: 2100, mercado: 2200, homens: 2300 },
+        junior: { mulheres: 3800, mercado: 4000, homens: 4200 },
+        pleno: { mulheres: 7000, mercado: 7600, homens: 8200 },
+        senior: { mulheres: 10500, mercado: 11500, homens: 12500 },
+        lideranca: { mulheres: 14000, mercado: 15200, homens: 16500 }
+      },
+      produto: {
+        estagiario: { mulheres: 2600, mercado: 2800, homens: 3000 },
+        junior: { mulheres: 4800, mercado: 5200, homens: 5600 },
+        pleno: { mulheres: 8800, mercado: 9600, homens: 10400 },
+        senior: { mulheres: 13500, mercado: 14800, homens: 16000 },
+        lideranca: { mulheres: 17000, mercado: 18500, homens: 20000 }
+      }
+    };
+
+    function calcularParidade() {
+      const salario = parseFloat(document.getElementById('salarioAtual').value) || 0;
+      const senioridade = document.getElementById('senioridade').value;
+      const area = document.getElementById('areaAtuacao').value;
+
+      const ref = mediasMercado[area][senioridade];
+      const mediaMulheres = ref.mulheres;
+      const mediaMercado = ref.mercado;
+      const mediaHomens = ref.homens;
+
+      // O ajuste toma como base a média de homens (ou do mercado se superior)
+      let ajuste = mediaHomens - salario;
+      if (ajuste < 0) ajuste = 0;
+
+      let gapPct = 0;
+      if (mediaHomens > 0 && salario < mediaHomens) {
+        gapPct = (((mediaHomens - salario) / mediaHomens) * 100).toFixed(1);
+      }
+
+      // Atualiza Valores Textuais
+      document.getElementById('resAjuste').innerText = `R$ ${ajuste.toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+      document.getElementById('resGap').innerText = `${gapPct}%`;
+      
+      document.getElementById('lblSeuSalario').innerText = `R$ ${salario.toLocaleString('pt-BR')}`;
+      document.getElementById('lblMediaMulheres').innerText = `R$ ${mediaMulheres.toLocaleString('pt-BR')}`;
+      document.getElementById('lblMediaMercado').innerText = `R$ ${mediaMercado.toLocaleString('pt-BR')}`;
+      document.getElementById('lblMediaHomens').innerText = `R$ ${mediaHomens.toLocaleString('pt-BR')}`;
+
+      // Calcula Proporção das Barras
+      const maxVal = Math.max(salario, mediaMulheres, mediaMercado, mediaHomens) * 1.1;
+
+      document.getElementById('barSeuSalario').style.width = Math.min(100, (salario / maxVal) * 100) + '%';
+      document.getElementById('barMediaMulheres').style.width = Math.min(100, (mediaMulheres / maxVal) * 100) + '%';
+      document.getElementById('barMediaMercado').style.width = Math.min(100, (mediaMercado / maxVal) * 100) + '%';
+      document.getElementById('barMediaHomens').style.width = Math.min(100, (mediaHomens / maxVal) * 100) + '%';
+
+      document.getElementById('diagSub').innerText = 'Diagnóstico atualizado com base nas médias de mercado.';
+    }
+
+    function atualizarSimulador(val) {
+      const pct = parseInt(val);
+      document.getElementById('badgeMeta').innerText = pct + '%';
+
+      const acrescimo = (381.92 * (pct / 50)).toFixed(2);
+      const folha = (1.20 * (pct / 50)).toFixed(2);
+      const mulheres = Math.round(265 * (pct / 50));
+
+      document.getElementById('valAcrescimo').innerText = `${acrescimo.replace('.', ',')} Mil`;
+      document.getElementById('valFolha').innerText = `${folha.replace('.', ',')}%`;
+      document.getElementById('valMulheres').innerText = mulheres;
+    }
+
+    window.onload = function() {
+      calcularParidade();
+    };
+  </script>
+</body>
+</html>
