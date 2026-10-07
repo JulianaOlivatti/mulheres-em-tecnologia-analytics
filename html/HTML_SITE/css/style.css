@@ -458,3 +458,12 @@ body{background:#dfe8e8}
 .site-powerbi-actions{max-width:1180px;margin:14px auto 0;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:11px}
 .site-powerbi-actions a{text-decoration:none;border:1px solid currentColor;border-radius:999px;padding:9px 14px}
 @media(max-width:800px){.site-powerbi{aspect-ratio:auto}.site-powerbi iframe{height:520px}.site-powerbi-actions{flex-direction:column;align-items:flex-start}}
+
+
+/* Bios da equipe */
+.v14-bio{
+  margin:12px 0 10px;
+  font-size:14px;
+  line-height:1.55;
+  color:var(--muted);
+}
