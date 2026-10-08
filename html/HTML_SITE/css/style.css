@@ -467,3 +467,64 @@ body{background:#dfe8e8}
   line-height:1.55;
   color:var(--muted);
 }
+
+
+/* ===== Equipe em uma única linha ===== */
+#equipe .v14-team-inner{
+  max-width:1500px !important;
+}
+.v14-team-grid{
+  grid-template-columns:repeat(7,minmax(0,1fr)) !important;
+  gap:12px !important;
+}
+.v14-member{
+  min-height:0 !important;
+  border-radius:22px !important;
+}
+.v14-portrait{
+  height:150px !important;
+}
+.v14-copy{
+  padding:16px 14px 10px !important;
+}
+.v14-copy h3{
+  font-size:18px !important;
+  line-height:1.05 !important;
+}
+.v14-copy p{
+  font-size:10px !important;
+  line-height:1.35 !important;
+  min-height:34px;
+}
+.v14-bio{
+  margin:10px 0 0 !important;
+  font-size:10px !important;
+  line-height:1.45 !important;
+}
+.v15-socials{
+  margin:auto 12px 12px !important;
+  padding-top:12px;
+  gap:6px !important;
+}
+.v15-socials a,.v15-socials>span{
+  min-height:32px !important;
+  padding:0 7px !important;
+  font-size:9px !important;
+}
+@media(max-width:1180px){
+  .v14-team-grid{
+    display:flex !important;
+    overflow-x:auto;
+    padding-bottom:12px;
+    scroll-snap-type:x mandatory;
+  }
+  .v14-member{
+    flex:0 0 210px;
+    scroll-snap-align:start;
+  }
+}
+@media(max-width:640px){
+  .v14-member{
+    flex-basis:235px;
+  }
+}
