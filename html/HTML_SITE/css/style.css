@@ -528,3 +528,51 @@ body{background:#dfe8e8}
     flex-basis:235px;
   }
 }
+
+
+/* ===== Dashboard ampliado ===== */
+#bi .inner{
+  max-width:1600px !important;
+  width:min(1600px,96vw) !important;
+}
+#bi .browser{
+  width:100% !important;
+  margin-top:38px !important;
+  border-radius:30px !important;
+  overflow:hidden !important;
+  box-shadow:0 26px 70px rgba(7,59,76,.16) !important;
+}
+#bi .site-powerbi{
+  width:100% !important;
+  max-width:none !important;
+  height:min(74vh,860px) !important;
+  min-height:620px !important;
+  aspect-ratio:auto !important;
+  margin:0 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+}
+#bi .site-powerbi iframe{
+  width:100% !important;
+  height:100% !important;
+}
+#bi .site-powerbi-actions{
+  max-width:none !important;
+  margin:0 !important;
+  padding:14px 18px 16px !important;
+}
+@media(max-width:900px){
+  #bi .inner{
+    width:100% !important;
+  }
+  #bi .site-powerbi{
+    height:68vh !important;
+    min-height:520px !important;
+  }
+}
+@media(max-width:620px){
+  #bi .site-powerbi{
+    height:560px !important;
+    min-height:560px !important;
+  }
+}
